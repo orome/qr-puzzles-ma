@@ -20,6 +20,7 @@
 
 
 unknown ="-";
+
 cellGraphics = {
 1->Graphics[{Black,Rectangle[]},ImageSize->20],unknown->Graphics[{GrayLevel[.95],Rectangle[]},ImageSize->20],0->Graphics[{White,Rectangle[]},ImageSize->20]};
 gridSpecs = Sequence[Frame->None,Alignment->Center,ItemSize->{1.25,1.25},Spacings->{0.2,0.2}];
