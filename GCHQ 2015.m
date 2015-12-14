@@ -64,7 +64,8 @@ genCells[spec_]:=Flatten[{ConstantArray[0,#[[1]]],ConstantArray[1,#[[2]]]}&/@
 isDone[strip_] := FreeQ[strip,unknown];
 
 
-constraintStrip[_,constraint_]:= constraint/;isDone[constraint];constraintStrip[cells_,constraint_]:=
+constraintStrip[_,constraint_]:= constraint/;isDone[constraint];
+constraintStrip[cells_,constraint_]:=
 Module[{constrainedCells=Cases[cells,constraint/.unknown->_]},
 Switch[#,Length[constrainedCells],1,0,0,_,unknown]&/@(Thread[Total[#]&@constrainedCells])]
 

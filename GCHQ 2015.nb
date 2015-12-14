@@ -3,14 +3,17 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[    204174,       7294]
-NotebookOptionsPosition[    202265,       7225]
-NotebookOutlinePosition[    202676,       7243]
-CellTagsIndexPosition[    202633,       7240]
+NotebookDataLength[    204253,       7294]
+NotebookOptionsPosition[    202307,       7225]
+NotebookOutlinePosition[    202834,       7246]
+CellTagsIndexPosition[    202791,       7243]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+Cell[BoxData[" "], "Input",
+ CellChangeTimes->{3.6590373414369593`*^9}],
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"ClearAll", "[", 
@@ -3709,7 +3712,9 @@ Cell[BoxData[
    3.659031760122737*^9, 3.659031767718083*^9}, 3.659031825590473*^9, 
    3.659032696319174*^9, 3.6590328464844837`*^9, 3.659032939638496*^9, {
    3.6590332755972757`*^9, 3.659033288467498*^9}, {3.659033320021432*^9, 
-   3.659033324369198*^9}, 3.659034312076696*^9, 3.659036251852214*^9}]
+   3.659033324369198*^9}, 3.659034312076696*^9, 3.659036251852214*^9, 
+   3.6591063672263193`*^9, 3.659106530234888*^9, 3.659106689996146*^9, 
+   3.659106825648888*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -3815,38 +3820,38 @@ Cell[BoxData[
  InitializationCell->True,
  CellChangeTimes->{{3.659029341444096*^9, 3.659029374617638*^9}}],
 
-Cell[BoxData[
+Cell[BoxData[{
  RowBox[{
   RowBox[{
    RowBox[{"constraintStrip", "[", 
     RowBox[{"_", ",", "constraint_"}], "]"}], ":=", " ", 
    RowBox[{"constraint", "/;", 
-    RowBox[{"isDone", "[", "constraint", "]"}]}]}], ";", 
-  RowBox[{
-   RowBox[{"constraintStrip", "[", 
-    RowBox[{"cells_", ",", "constraint_"}], "]"}], ":=", 
-   "\[IndentingNewLine]", 
-   RowBox[{"Module", "[", 
+    RowBox[{"isDone", "[", "constraint", "]"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"constraintStrip", "[", 
+   RowBox[{"cells_", ",", "constraint_"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"constrainedCells", "=", 
+      RowBox[{"Cases", "[", 
+       RowBox[{"cells", ",", 
+        RowBox[{"constraint", "/.", 
+         RowBox[{"unknown", "\[Rule]", "_"}]}]}], "]"}]}], "}"}], ",", 
+    "\[IndentingNewLine]", 
     RowBox[{
-     RowBox[{"{", 
-      RowBox[{"constrainedCells", "=", 
-       RowBox[{"Cases", "[", 
-        RowBox[{"cells", ",", 
-         RowBox[{"constraint", "/.", 
-          RowBox[{"unknown", "\[Rule]", "_"}]}]}], "]"}]}], "}"}], ",", 
-     "\[IndentingNewLine]", 
      RowBox[{
-      RowBox[{
-       RowBox[{"Switch", "[", 
-        RowBox[{"#", ",", 
-         RowBox[{"Length", "[", "constrainedCells", "]"}], ",", "1", ",", "0",
-          ",", "0", ",", "_", ",", "unknown"}], "]"}], "&"}], "/@", 
-      RowBox[{"(", 
-       RowBox[{"Thread", "[", 
+      RowBox[{"Switch", "[", 
+       RowBox[{"#", ",", 
+        RowBox[{"Length", "[", "constrainedCells", "]"}], ",", "1", ",", "0", 
+        ",", "0", ",", "_", ",", "unknown"}], "]"}], "&"}], "/@", 
+     RowBox[{"(", 
+      RowBox[{"Thread", "[", 
+       RowBox[{
         RowBox[{
-         RowBox[{
-          RowBox[{"Total", "[", "#", "]"}], "&"}], "@", "constrainedCells"}], 
-        "]"}], ")"}]}]}], "]"}]}]}]], "Input",
+         RowBox[{"Total", "[", "#", "]"}], "&"}], "@", "constrainedCells"}], 
+       "]"}], ")"}]}]}], "]"}]}]}], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.659015850768405*^9, 3.6590159201153603`*^9}, {
    3.6590159741488953`*^9, 3.659015974859497*^9}, {3.6590160300305557`*^9, 
@@ -3859,66 +3864,74 @@ Cell[BoxData[
    3.659024539183445*^9}, {3.659024753969088*^9, 3.659024773386039*^9}, {
    3.6590248729109507`*^9, 3.659024880221835*^9}, 3.6590249204724293`*^9, {
    3.6590249854652147`*^9, 3.6590250064099293`*^9}, 3.659025094776412*^9, 
-   3.659029418490938*^9}],
-
-Cell[BoxData[
- RowBox[{"While", "[", "\[IndentingNewLine]", 
-  RowBox[{
-   RowBox[{"Not", "@", 
-    RowBox[{"isDone", "@", 
-     RowBox[{"Flatten", "@", "constraintTable"}]}]}], ",", 
-   "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"constraintTable", " ", "=", " ", 
-     RowBox[{"(", 
-      RowBox[{
-       RowBox[{"Thread", "[", 
-        RowBox[{
-         RowBox[{
-          RowBox[{"f", "[", 
-           RowBox[{"#1", ",", "#2"}], "]"}], "&"}], "[", 
-         RowBox[{
-          RowBox[{
-           RowBox[{
-            RowBox[{"(", " ", 
-             RowBox[{
-              RowBox[{
-               RowBox[{"genCells", "[", "#", "]"}], "&"}], "/@", 
-              RowBox[{"genSpecs", "[", "#", "]"}]}], ")"}], "&"}], "/@", 
-           "clueRows"}], ",", "constraintTable"}], "]"}], "]"}], "/.", 
-       RowBox[{"f", "->", "constraintStrip"}]}], ")"}]}], ";", 
-    "\[IndentingNewLine]", 
-    RowBox[{"constraintTable", " ", "=", " ", 
-     RowBox[{
-      RowBox[{"(", 
-       RowBox[{
-        RowBox[{"Thread", "[", 
-         RowBox[{
-          RowBox[{
-           RowBox[{"f", "[", 
-            RowBox[{"#1", ",", "#2"}], "]"}], "&"}], "[", 
-          RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"(", " ", 
-              RowBox[{
-               RowBox[{
-                RowBox[{"genCells", "[", "#", "]"}], "&"}], "/@", 
-               RowBox[{"genSpecs", "[", "#", "]"}]}], ")"}], "&"}], "/@", 
-            "clueCols"}], ",", 
-           RowBox[{"constraintTable", "\[Transpose]"}]}], "]"}], "]"}], "/.", 
-        
-        RowBox[{"f", "->", "constraintStrip"}]}], ")"}], "\[Transpose]"}]}], 
-    ";"}]}], "\[IndentingNewLine]", "]"}]], "Input",
- CellChangeTimes->{{3.659032585225745*^9, 3.659032649213916*^9}, {
-   3.659032839045245*^9, 3.659032866109907*^9}, {3.659032934271874*^9, 
-   3.659032935862556*^9}, 3.659032999074151*^9, 3.659033092717119*^9, 
-   3.65903334025816*^9, {3.659034250092163*^9, 3.6590342996575336`*^9}}],
+   3.659029418490938*^9, {3.659106235108466*^9, 3.659106235784576*^9}, 
+   3.659106995973967*^9}],
 
 Cell[CellGroupData[{
 
-Cell[BoxData[
- RowBox[{"showTable", "[", "constraintTable", "]"}]], "Input"],
+Cell[BoxData[{
+ RowBox[{"With", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"rowCells", "  ", "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", " ", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"genCells", "[", "#", "]"}], "&"}], "/@", 
+          RowBox[{"genSpecs", "[", "#", "]"}]}], ")"}], "&"}], "/@", 
+       "clueRows"}]}], ",", 
+     RowBox[{"colCells", "  ", "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", " ", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"genCells", "[", "#", "]"}], "&"}], "/@", 
+          RowBox[{"genSpecs", "[", "#", "]"}]}], ")"}], "&"}], "/@", 
+       "clueCols"}]}]}], "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"While", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"Not", "@", 
+      RowBox[{"isDone", "@", 
+       RowBox[{"Flatten", "@", "constraintTable"}]}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"constraintTable", " ", "=", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"Thread", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"f", "[", 
+             RowBox[{"#1", ",", "#2"}], "]"}], "&"}], "[", 
+           RowBox[{"rowCells", ",", "constraintTable"}], "]"}], "]"}], "/.", 
+         RowBox[{"f", "->", "constraintStrip"}]}], ")"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"constraintTable", " ", "=", " ", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"Thread", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"f", "[", 
+              RowBox[{"#1", ",", "#2"}], "]"}], "&"}], "[", 
+            RowBox[{"colCells", ",", 
+             RowBox[{"constraintTable", "\[Transpose]"}]}], "]"}], "]"}], "/.", 
+          RowBox[{"f", "->", "constraintStrip"}]}], ")"}], "\[Transpose]"}]}],
+       ";"}]}], "\[IndentingNewLine]", "]"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"showTable", "[", "constraintTable", "]"}]}], "Input",
+ CellChangeTimes->{{3.659032585225745*^9, 3.659032649213916*^9}, {
+   3.659032839045245*^9, 3.659032866109907*^9}, {3.659032934271874*^9, 
+   3.659032935862556*^9}, 3.659032999074151*^9, 3.659033092717119*^9, 
+   3.65903334025816*^9, {3.659034250092163*^9, 3.6590342996575336`*^9}, {
+   3.6591063199679947`*^9, 3.6591063519661007`*^9}, {3.659106519909453*^9, 
+   3.659106525485434*^9}, {3.659106589419567*^9, 3.6591065964989157`*^9}, {
+   3.659106743118161*^9, 3.659106797946877*^9}, 3.659106849428825*^9}],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -7197,17 +7210,8 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{1.25}}, "Rows" -> {{1.25}}},
    GridBoxSpacings->{"Columns" -> {{0.2}}, "Rows" -> {{0.2}}}],
   "Grid"]], "Output",
- CellChangeTimes->{
-  3.6590333730005493`*^9, 3.659034355146262*^9, 3.6590349140307627`*^9, 
-   3.659034949950218*^9, 3.659034985707097*^9, {3.659035101834898*^9, 
-   3.659035120985072*^9}, {3.659035164285089*^9, 3.659035192448161*^9}, 
-   3.659035249594412*^9, {3.659035316814212*^9, 3.659035396910653*^9}, {
-   3.659035457126576*^9, 3.659035480698846*^9}, 3.6590355630888863`*^9, {
-   3.659035607057457*^9, 3.6590356345269823`*^9}, {3.659036089871505*^9, 
-   3.659036138334446*^9}, 3.6590361817449007`*^9}]
+ CellChangeTimes->{3.659106859285676*^9}]
 }, Open  ]],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"BarcodeRecognize", "[", 
@@ -7216,17 +7220,16 @@ Cell[BoxData[
     RowBox[{"1", "-", "constraintTable"}], ")"}], "//", "Image"}], 
   "]"}]], "Input",
  CellChangeTimes->{{3.659032830892104*^9, 3.6590328359387503`*^9}, {
-  3.659033116454604*^9, 3.65903312019099*^9}}],
-
-Cell[BoxData["\<\"www.gchq.gov.uk/puzz\"\>"], "Output",
- CellChangeTimes->{3.6590333765259237`*^9, 3.6590343590075703`*^9}]
-}, Open  ]]
+  3.659033116454604*^9, 3.65903312019099*^9}}]
 }, Open  ]]
 },
-WindowSize->{1036, 735},
-WindowMargins->{{Automatic, 78}, {-4, Automatic}},
+PrintingStyleEnvironment->"Condensed",
+WindowSize->{1137, 735},
+WindowMargins->{{Automatic, 54}, {0, Automatic}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
+PrintingOptions->{"PaperOrientation"->"Portrait",
+"PaperSize"->{1224, 1584}},
 FrontEndVersion->"10.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (October 9, \
 2015)",
 StyleDefinitions->"Default.nb"
@@ -7242,52 +7245,49 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[400, 13, 514, 10, 28, "Input"],
+Cell[400, 13, 71, 1, 28, "Input"],
+Cell[474, 16, 514, 10, 28, "Input"],
 Cell[CellGroupData[{
-Cell[939, 27, 110, 1, 64, "Section"],
-Cell[1052, 30, 121, 1, 30, "Text"],
-Cell[1176, 33, 2064, 50, 97, "Input",
+Cell[1013, 30, 110, 1, 64, "Section"],
+Cell[1126, 33, 121, 1, 30, "Text"],
+Cell[1250, 36, 2064, 50, 97, "Input",
  InitializationCell->True],
-Cell[3243, 85, 162, 2, 30, "Text"],
-Cell[3408, 89, 2213, 53, 80, "Input",
+Cell[3317, 88, 162, 2, 30, "Text"],
+Cell[3482, 92, 2213, 53, 80, "Input",
  InitializationCell->True],
-Cell[5624, 144, 340, 10, 28, "Input",
+Cell[5698, 147, 340, 10, 28, "Input",
  InitializationCell->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6001, 159, 100, 1, 64, "Section"],
-Cell[6104, 162, 163, 4, 28, "Input",
+Cell[6075, 162, 100, 1, 64, "Section"],
+Cell[6178, 165, 163, 4, 28, "Input",
  InitializationCell->True],
-Cell[6270, 168, 223, 3, 30, "Text"],
-Cell[6496, 173, 6388, 175, 216, "Input",
+Cell[6344, 171, 223, 3, 30, "Text"],
+Cell[6570, 176, 6388, 175, 199, "Input",
  InitializationCell->True],
-Cell[12887, 350, 168, 2, 30, "Text"],
+Cell[12961, 353, 168, 2, 30, "Text"],
 Cell[CellGroupData[{
-Cell[13080, 356, 2346, 66, 148, "Input",
+Cell[13154, 359, 2346, 66, 148, "Input",
  InitializationCell->True],
-Cell[15429, 424, 90514, 3287, 743, "Output"]
+Cell[15503, 427, 90612, 3289, 743, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[105992, 3717, 98, 1, 64, "Section"],
-Cell[106093, 3720, 180, 4, 30, "Text"],
-Cell[106276, 3726, 1792, 52, 80, "Input",
+Cell[106164, 3722, 98, 1, 64, "Section"],
+Cell[106265, 3725, 180, 4, 30, "Text"],
+Cell[106448, 3731, 1792, 52, 80, "Input",
  InitializationCell->True],
-Cell[108071, 3780, 939, 26, 46, "Input",
+Cell[108243, 3785, 939, 26, 46, "Input",
  InitializationCell->True],
-Cell[109013, 3808, 278, 7, 28, "Input",
+Cell[109185, 3813, 278, 7, 28, "Input",
  InitializationCell->True],
-Cell[109294, 3817, 1960, 44, 63, "Input",
+Cell[109466, 3822, 2032, 45, 80, "Input",
  InitializationCell->True],
-Cell[111257, 3863, 1963, 52, 131, "Input"],
 Cell[CellGroupData[{
-Cell[113245, 3919, 76, 1, 28, "Input"],
-Cell[113324, 3922, 88471, 3284, 743, "Output"]
+Cell[111523, 3871, 2467, 62, 131, "Input"],
+Cell[113993, 3935, 88004, 3277, 743, "Output"]
 }, Open  ]],
-Cell[CellGroupData[{
-Cell[201832, 7211, 279, 7, 28, "Input"],
-Cell[202114, 7220, 123, 1, 28, "Output"]
-}, Open  ]]
+Cell[202012, 7215, 279, 7, 28, "Input"]
 }, Open  ]]
 }
 ]
