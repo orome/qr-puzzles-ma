@@ -71,6 +71,15 @@ Switch[#,Length[constrainedPoss],1,0,0,_,unknown]&/@(Thread[Total[#]&@constraine
 isDone[strip_] := FreeQ[strip,unknown];
 
 
+With[{possRows =possible[#]&/@clueRows,possCols =possible[#]&/@clueCols},
+While[
+Not@isDone@Flatten@constraints,
+constraints=MapThread[constraint, {possRows,constraints}]\[Transpose];
+constraints=MapThread[constraint, {possCols,constraints}]\[Transpose];
+]]
+showTable[constraints]
+
+
 (*constraintStrip[_,constraint_]:={{constraint},constraint}/;isDone[constraint];
 constraintStrip[cells_,constraint_]:=
 Module[{constrainedCells=Cases[cells,constraint/.unknown\[Rule]_]},
