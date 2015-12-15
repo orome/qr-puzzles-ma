@@ -71,6 +71,9 @@ Switch[#,Length[constrainedPoss],1,0,0,_,unknown]&/@(Thread[Total[#]&@constraine
 isDone[strip_] := FreeQ[strip,unknown];
 
 
+(* All the time here is taken up by the initialization of possRows and possCols; after that, the solution is very fast *)
+
+
 With[{possRows =possible[#]&/@clueRows,possCols =possible[#]&/@clueCols},
 While[
 Not@isDone@Flatten@constraints,

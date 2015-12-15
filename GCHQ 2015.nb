@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[    218803,       7619]
-NotebookOptionsPosition[    216132,       7526]
-NotebookOutlinePosition[    216659,       7547]
-CellTagsIndexPosition[    216616,       7544]
+NotebookDataLength[    219427,       7636]
+NotebookOptionsPosition[    216687,       7541]
+NotebookOutlinePosition[    217214,       7562]
+CellTagsIndexPosition[    217171,       7559]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -266,7 +266,7 @@ Cell[BoxData[{
        ",", 
       RowBox[{"{", 
        RowBox[{"7", ",", "2", ",", "1", ",", "2", ",", "5"}], "}"}]}], 
-     "}"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
+     "}"}]}], ";"}], "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{"clueCols", "=", 
    RowBox[{"{", 
@@ -3956,6 +3956,20 @@ preceeding possRow step has completed the puzzle; not worth checking.)\
 \>", "Text",
  CellChangeTimes->{{3.659178442472836*^9, 3.659178493347939*^9}}],
 
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+    "All", " ", "the", " ", "time", " ", "here", " ", "is", " ", "taken", " ",
+      "up", " ", "by", " ", "the", " ", "initialization", " ", "of", " ", 
+     "possRows", " ", "and", " ", "possCols"}], ";", " ", 
+    RowBox[{"after", " ", "that"}]}], ",", " ", 
+   RowBox[{"the", " ", "solution", " ", "is", " ", "very", " ", "fast"}]}], 
+  " ", "*)"}]], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.659185789571072*^9, 3.65918582219261*^9}}],
+
 Cell[CellGroupData[{
 
 Cell[BoxData[{
@@ -4019,7 +4033,8 @@ Cell[BoxData[{
    3.6591789001074877`*^9, 3.659178908928789*^9}, {3.659180388674965*^9, 
    3.659180411472835*^9}, {3.6591807276315517`*^9, 3.6591807401435137`*^9}, {
    3.659180829721089*^9, 3.659180849280223*^9}, {3.6591810687545547`*^9, 
-   3.659181072561667*^9}, {3.659183100146269*^9, 3.659183111136141*^9}}],
+   3.659181072561667*^9}, {3.659183100146269*^9, 3.659183111136141*^9}, 
+   3.659185713204852*^9}],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -7594,24 +7609,26 @@ Cell[115378, 3937, 278, 7, 28, "Input",
 Cell[CellGroupData[{
 Cell[115693, 3949, 94, 1, 44, "Subsection"],
 Cell[115790, 3952, 239, 4, 49, "Text"],
-Cell[CellGroupData[{
-Cell[116054, 3960, 3090, 61, 131, "Input",
+Cell[116032, 3958, 526, 12, 46, "Input",
  InitializationCell->True],
-Cell[119147, 4023, 88004, 3277, 743, "Output"]
+Cell[CellGroupData[{
+Cell[116583, 3974, 3116, 62, 131, "Input",
+ InitializationCell->True],
+Cell[119702, 4038, 88004, 3277, 743, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[207188, 7305, 297, 7, 28, "Input"],
-Cell[207488, 7314, 144, 2, 28, "Output"]
+Cell[207743, 7320, 297, 7, 28, "Input"],
+Cell[208043, 7329, 144, 2, 28, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[207693, 7323, 138, 2, 64, "Section"],
-Cell[207834, 7327, 382, 7, 49, "Text"],
-Cell[208219, 7336, 2401, 55, 97, "Input",
+Cell[208248, 7338, 138, 2, 64, "Section"],
+Cell[208389, 7342, 382, 7, 49, "Text"],
+Cell[208774, 7351, 2401, 55, 97, "Input",
  InitializationCell->True],
-Cell[210623, 7393, 3232, 71, 148, "Input"],
-Cell[213858, 7466, 2258, 57, 131, "Input",
+Cell[211178, 7408, 3232, 71, 148, "Input"],
+Cell[214413, 7481, 2258, 57, 131, "Input",
  InitializationCell->True]
 }, Open  ]]
 }
