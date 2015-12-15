@@ -54,13 +54,12 @@ constraints = ConstantArray[unknown, {dim, dim}];
 showTable[constraints]
 
 
-specsN[clue_,n_]:=
-Switch[n,1,#,-1,Join[{0},#,{0}],0,{Append[#,0],Prepend[#,0]}]&/@ 
-(Union@@(Permutations/@(IntegerPartitions[dim-Plus@@clue, {Length[clue]+n}])));specs[clue_]:= Riffle[#,clue]&/@Union[specsN[clue,-1],Union@@specsN[clue,0], specsN[clue,1]]
-
-
-possibles[spec_]:=Flatten[{ConstantArray[0,#[[1]]],ConstantArray[1,#[[2]]]}&/@
- Partition[Append[spec,0],2]]
+possible[clue_]:=Module[{spec},
+spec= Module[{specN},
+specN[n_]:=Switch[n,1,#,-1,Join[{0},#,{0}],0,{Append[#,0],Prepend[#,0]}]&/@ 
+(Union@@(Permutations/@(IntegerPartitions[dim-Plus@@clue, {Length[clue]+n}])));
+ Riffle[#,clue]&/@Union[specN[-1],Union@@specN[0], specN[1]]];
+Flatten[{ConstantArray[0,#[[1]]],ConstantArray[1,#[[2]]]}&/@Partition[Append[#,0],2]]&/@spec]
 
 
 constraint[_,const_]:= const/;isDone[const];
@@ -78,4 +77,10 @@ Module[{constrainedCells=Cases[cells,constraint/.unknown\[Rule]_]},
 {constrainedCells,Switch[#,Length[constrainedCells],1,0,0,_,unknown]&/@(Thread[Total[#]&@constrainedCells])}]*)
 
 
-
+(*
+spec[clue_]:= Module[{specN},
+specN[n_]:=
+Switch[n,1,#,-1,Join[{0},#,{0}],0,{Append[#,0],Prepend[#,0]}]&/@ 
+(Union@@(Permutations/@(IntegerPartitions[dim-Plus@@clue, {Length[clue]+n}])));
+ Riffle[#,clue]&/@Union[specN[-1],Union@@specN[0], specN[1]]
+]*)
