@@ -26,6 +26,8 @@ BeginPackage["GCHQ`"]
 
 (* ::Package:: *)
 
+(* ==================== Definitions *)
+
 (* Some constants for use in display, etc. *)
 unknown = "-";
 cellGraphics = {
@@ -40,6 +42,9 @@ showTable[t_] := Grid[Join[
   MapThread[Join, {(Style[#, Bold]& /@ PadLeft[#, 9, ""]& /@ clueRows), (t /. cellGraphics)}]
 ], gridSpecs];
 (*showTable[t_]:=Grid[t/.cellGraphics, gridSpecs];*)
+
+
+(* ==================== Problem statement *)
 
 (* The "clues" along the sides of the puzzle *)
 dim = 25;
@@ -65,8 +70,9 @@ constraints = ConstantArray[unknown, {dim, dim}];
 };
 
 
-(* The solution
+(* ==================== Solutuon *)
 
+(*
 The approach is to progressively refine the constraints until they are free of unknowns.
 - (spec: the clue, expressed as a list of all possible combinations of the runs of 0s and 1s)
 - possible: All the possible strips matching a given clue.
