@@ -44,32 +44,38 @@ clueRows={{7,3,1,1,7},{1,1,2,2,1,1},{1,3,1,3,1,1,3,1},{1,3,1,1,6,1,3,1},{1,3,1,5
 clueCols={{7,2,1,1,7},{1,1,2,2,1,1},{1,3,1,3,1,3,1,3,1},{1,3,1,1,5,1,3,1},{1,3,1,1,4,1,3,1},{1,1,1,2,1,1},{7,1,1,1,1,1,7},{1,1,3},{2,1,2,1,8,2,1},{2,2,1,2,1,1,1,2},{1,7,3,2,1},{1,2,3,1,1,1,1,1},{4,1,1,2,6},{3,3,1,1,1,3,1},{1,2,5,2,2},{2,2,1,1,1,1,1,2,1},{1,3,3,2,1,8,1},{6,2,1},{7,1,4,1,1,3},{1,1,1,1,4},{1,3,1,3,7,1},{1,3,1,1,1,2,1,1,4},{1,3,1,4,3,3},{1,1,2,2,2,6,1},{7,1,3,2,1,1}};
 
 
-constraintTable = ConstantArray[unknown, {dim, dim}];
-(constraintTable[[Sequence@@#]]=1)&/@{
+constraints = ConstantArray[unknown, {dim, dim}];
+(constraints[[Sequence@@#]]=1)&/@{
 {4,4},{4,5},{4,13},{4,14},{4,22},
 {9,7},{9,8},{9,11},{9,15},{9,16},{9,19},
 {17, 7}, {17, 12}, {17, 17},{17, 21},
 {22, 4},{22, 5},{22, 10},{22, 11},{22, 16},{22, 21},{22, 22}
 };
-showTable[constraintTable]
+showTable[constraints]
 
 
-genSpecsN[clue_,n_]:=
+specsN[clue_,n_]:=
 Switch[n,1,#,-1,Join[{0},#,{0}],0,{Append[#,0],Prepend[#,0]}]&/@ 
-(Union@@(Permutations/@(IntegerPartitions[dim-Plus@@clue, {Length[clue]+n}])));genSpecs[clue_]:= Riffle[#,clue]&/@Union[genSpecsN[clue,-1],Union@@genSpecsN[clue,0], genSpecsN[clue,1]]
+(Union@@(Permutations/@(IntegerPartitions[dim-Plus@@clue, {Length[clue]+n}])));specs[clue_]:= Riffle[#,clue]&/@Union[specsN[clue,-1],Union@@specsN[clue,0], specsN[clue,1]]
 
 
-genCells[spec_]:=Flatten[{ConstantArray[0,#[[1]]],ConstantArray[1,#[[2]]]}&/@
+possibles[spec_]:=Flatten[{ConstantArray[0,#[[1]]],ConstantArray[1,#[[2]]]}&/@
  Partition[Append[spec,0],2]]
+
+
+constraint[_,const_]:= const/;isDone[const];
+constraint[poss_,const_]:=
+Module[{constrainedPoss=Cases[poss,const/.unknown->_]},
+Switch[#,Length[constrainedPoss],1,0,0,_,unknown]&/@(Thread[Total[#]&@constrainedPoss])]
 
 
 isDone[strip_] := FreeQ[strip,unknown];
 
 
-constraintStrip[_,constraint_]:= constraint/;isDone[constraint];
+(*constraintStrip[_,constraint_]:={{constraint},constraint}/;isDone[constraint];
 constraintStrip[cells_,constraint_]:=
-Module[{constrainedCells=Cases[cells,constraint/.unknown->_]},
-Switch[#,Length[constrainedCells],1,0,0,_,unknown]&/@(Thread[Total[#]&@constrainedCells])]
+Module[{constrainedCells=Cases[cells,constraint/.unknown\[Rule]_]},
+{constrainedCells,Switch[#,Length[constrainedCells],1,0,0,_,unknown]&/@(Thread[Total[#]&@constrainedCells])}]*)
 
 
 
