@@ -37,28 +37,30 @@ cellGraphics = {
 gridSpecs = Sequence[Frame -> None, Alignment -> Center, ItemSize -> {1.25, 1.25}, Spacings -> {0.2, 0.2}];
 
 (* A function to display results *)
-showTable[t_] := Grid[Join[
-  Transpose@Join[ConstantArray["", {9, 9}], (Style[#, Bold]& /@ PadLeft[#, 9, ""]& /@ clueCols)],
-  MapThread[Join, {(Style[#, Bold]& /@ PadLeft[#, 9, ""]& /@ clueRows), (t /. cellGraphics)}]
+showTable[t_, {cr_, cc_}] := Grid[Join[
+  Transpose@Join[ConstantArray["", {9, 9}], (Style[#, Bold]& /@ PadLeft[#, 9, ""]& /@ cc)],
+  MapThread[Join, {(Style[#, Bold]& /@ PadLeft[#, 9, ""]& /@ cr), (t /. cellGraphics)}]
 ], gridSpecs];
-(*showTable[t_]:=Grid[t/.cellGraphics, gridSpecs];*)
+showTable[t_]:=Grid[t/.cellGraphics, gridSpecs];
 
 
 (* ==================== Problem statement *)
 
 (* The "clues" along the sides of the puzzle *)
-dim = 25;
-clueRows = {{7, 3, 1, 1, 7}, {1, 1, 2, 2, 1, 1}, {1, 3, 1, 3, 1, 1, 3, 1}, {1, 3, 1, 1, 6, 1, 3, 1},
-  {1, 3, 1, 5, 2, 1, 3, 1}, {1, 1, 2, 1, 1}, {7, 1, 1, 1, 1, 1, 7}, {3, 3}, {1, 2, 3, 1, 1, 3, 1, 1, 2},
-  {1, 1, 3, 2, 1, 1}, {4, 1, 4, 2, 1, 2}, {1, 1, 1, 1, 1, 4, 1, 3}, {2, 1, 1, 1, 2, 5}, {3, 2, 2, 6, 3, 1},
-  {1, 9, 1, 1, 2, 1}, {2, 1, 2, 2, 3, 1}, {3, 1, 1, 1, 1, 5, 1}, {1, 2, 2, 5}, {7, 1, 2, 1, 1, 1, 3},
-  {1, 1, 2, 1, 2, 2, 1}, {1, 3, 1, 4, 5, 1}, {1, 3, 1, 3, 10, 2}, {1, 3, 1, 1, 6, 6},
-  {1, 1, 2, 1, 1, 2}, {7, 2, 1, 2, 5}};
-clueCols = {{7, 2, 1, 1, 7}, {1, 1, 2, 2, 1, 1}, {1, 3, 1, 3, 1, 3, 1, 3, 1}, {1, 3, 1, 1, 5, 1, 3, 1},
-  {1, 3, 1, 1, 4, 1, 3, 1}, {1, 1, 1, 2, 1, 1}, {7, 1, 1, 1, 1, 1, 7}, {1, 1, 3}, {2, 1, 2, 1, 8, 2, 1},
-  {2, 2, 1, 2, 1, 1, 1, 2}, {1, 7, 3, 2, 1}, {1, 2, 3, 1, 1, 1, 1, 1}, {4, 1, 1, 2, 6}, {3, 3, 1, 1, 1, 3, 1},
-  {1, 2, 5, 2, 2}, {2, 2, 1, 1, 1, 1, 1, 2, 1}, {1, 3, 3, 2, 1, 8, 1}, {6, 2, 1}, {7, 1, 4, 1, 1, 3}, {1, 1, 1, 1, 4},
-  {1, 3, 1, 3, 7, 1}, {1, 3, 1, 1, 1, 2, 1, 1, 4}, {1, 3, 1, 4, 3, 3}, {1, 1, 2, 2, 2, 6, 1}, {7, 1, 3, 2, 1, 1}};
+dim = 25; (* TBD - Needs to be generalized <<< *)
+clues = {
+  {{7, 3, 1, 1, 7}, {1, 1, 2, 2, 1, 1}, {1, 3, 1, 3, 1, 1, 3, 1}, {1, 3, 1, 1, 6, 1, 3, 1},
+    {1, 3, 1, 5, 2, 1, 3, 1}, {1, 1, 2, 1, 1}, {7, 1, 1, 1, 1, 1, 7}, {3, 3}, {1, 2, 3, 1, 1, 3, 1, 1, 2},
+    {1, 1, 3, 2, 1, 1}, {4, 1, 4, 2, 1, 2}, {1, 1, 1, 1, 1, 4, 1, 3}, {2, 1, 1, 1, 2, 5}, {3, 2, 2, 6, 3, 1},
+    {1, 9, 1, 1, 2, 1}, {2, 1, 2, 2, 3, 1}, {3, 1, 1, 1, 1, 5, 1}, {1, 2, 2, 5}, {7, 1, 2, 1, 1, 1, 3},
+    {1, 1, 2, 1, 2, 2, 1}, {1, 3, 1, 4, 5, 1}, {1, 3, 1, 3, 10, 2}, {1, 3, 1, 1, 6, 6},
+    {1, 1, 2, 1, 1, 2}, {7, 2, 1, 2, 5}},
+  {{7, 2, 1, 1, 7}, {1, 1, 2, 2, 1, 1}, {1, 3, 1, 3, 1, 3, 1, 3, 1}, {1, 3, 1, 1, 5, 1, 3, 1},
+    {1, 3, 1, 1, 4, 1, 3, 1}, {1, 1, 1, 2, 1, 1}, {7, 1, 1, 1, 1, 1, 7}, {1, 1, 3}, {2, 1, 2, 1, 8, 2, 1},
+    {2, 2, 1, 2, 1, 1, 1, 2}, {1, 7, 3, 2, 1}, {1, 2, 3, 1, 1, 1, 1, 1}, {4, 1, 1, 2, 6}, {3, 3, 1, 1, 1, 3, 1},
+    {1, 2, 5, 2, 2}, {2, 2, 1, 1, 1, 1, 1, 2, 1}, {1, 3, 3, 2, 1, 8, 1}, {6, 2, 1}, {7, 1, 4, 1, 1, 3}, {1, 1, 1, 1, 4},
+    {1, 3, 1, 3, 7, 1}, {1, 3, 1, 1, 1, 2, 1, 1, 4}, {1, 3, 1, 4, 3, 3}, {1, 1, 2, 2, 2, 6, 1}, {7, 1, 3, 2, 1, 1}}
+};
 
 (* Constraints (thusfar) in the puzzle) *)
 constraints = ConstantArray[unknown, {dim, dim}];
@@ -97,7 +99,7 @@ isDone[strip_] := FreeQ[strip, unknown];
 (* Has a possibly unnecessary refinement of sol using possColls if the preceeding possRow step has completed the
 puzzle; not worth checking. *)
 
-solve[const_] := Module[{possRows = possible[#]& /@ clueRows, possCols = possible[#]& /@ clueCols, sol = const},
+solve[const_,  {cr_, cc_}] := Module[{possRows = possible[#]& /@ cr, possCols = possible[#]& /@ cc, sol = const},
   While[Not@isDone@Flatten@sol,
     sol = Transpose@MapThread[constraint, {possRows, sol}];
     sol = Transpose@MapThread[constraint, {possCols, sol}];];
