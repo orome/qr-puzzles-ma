@@ -76,6 +76,7 @@ clues[data_]:={(Length/@Select[Split[#],FreeQ[#,0]&])&/@data, (Length/@Select[Sp
 
 knowns[goal_,const_] := Intersection[Position[goal,#] , Position[const,"-"]]&/@{1,0};
 
+unconstrained[dims_] := ConstantArray[unknown, dims];
 
 (* ==================== GCHQ Problem statement *)
 
@@ -131,7 +132,7 @@ constraint[_, const_] := const /; FreeQ[const, unknown];
 constraint[poss_, const_] := Module[{constrainedPoss = Cases[poss, const /. unknown -> _]},
   Switch[#, Length[constrainedPoss], 1, 0, 0, _, unknown]& /@ (Thread[Total[#]&@constrainedPoss])];
 
-unconstrained[dims_] := ConstantArray[unknown, dims];
+
 
 (*isDone[strip_] := FreeQ[strip, unknown];*)
 
