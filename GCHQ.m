@@ -110,6 +110,7 @@ puzzleFromUrl[url_] := Module[{puzGoal = 1 - ImageData[BarcodeImage[url, "QR", 2
 clues[data_] := ((Length /@ Select[Split[#], FreeQ[#, 0]&])& /@ #)& /@ {data, Transpose@data};
 
 knowns[goal_, const_] := Intersection[Position[goal, #] , Position[const, "-"]]& /@ {1, 0};
+knowns[givens_] :=  Position[givensFromUrl, #]& /@ {1, 0};
 
 unconstrained[dims_] := ConstantArray[unknown, dims];
 
