@@ -3303,7 +3303,8 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{1.25}}, "Rows" -> {{1.25}}},
    GridBoxSpacings->{"Columns" -> {{0.2}}, "Rows" -> {{0.2}}}],
   "Grid"]], "Output",
- CellChangeTimes->{3.6593732641929417`*^9, 3.659373787987089*^9}]
+ CellChangeTimes->{3.6593732641929417`*^9, 3.659373787987089*^9, 
+  3.65945078383237*^9, 3.659452000713148*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6595,7 +6596,8 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{1.25}}, "Rows" -> {{1.25}}},
    GridBoxSpacings->{"Columns" -> {{0.2}}, "Rows" -> {{0.2}}}],
   "Grid"]], "Output",
- CellChangeTimes->{3.659373273409889*^9}]
+ CellChangeTimes->{3.659373273409889*^9, 3.659450794307253*^9, 
+  3.65945200993991*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6610,7 +6612,8 @@ Cell[BoxData[
   3.659285550916335*^9, 3.659285551882595*^9}}],
 
 Cell[BoxData["\<\"www.gchq.gov.uk/puzz\"\>"], "Output",
- CellChangeTimes->{3.6593732771062737`*^9}]
+ CellChangeTimes->{3.6593732771062737`*^9, 3.6594507959613943`*^9, 
+  3.659452013422344*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -6635,7 +6638,7 @@ Cell[BoxData[{
     "goalFromURL", ",", " ", "cluesFromURL", ",", " ", "givensFromUrl"}], 
     "}"}], " ", "=", 
    RowBox[{
-   "puzzleFromUrl", "[", "\"\<http://www.sciencegames.com\>\"", "]"}]}], 
+   "puzzleFromString", "[", "\"\<http://www.sciencegames.com\>\"", "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{"showTable", "[", 
   RowBox[{"goalFromURL", ",", " ", "cluesFromURL"}], "]"}]}], "Input",
@@ -6643,7 +6646,7 @@ Cell[BoxData[{
    3.6593647947687607`*^9, {3.659365134111957*^9, 3.659365140861664*^9}, {
    3.659365211570763*^9, 3.6593652161849537`*^9}, {3.6593652777630177`*^9, 
    3.659365278458921*^9}, {3.659365526923818*^9, 3.659365566940483*^9}, {
-   3.659366993636286*^9, 3.659366998150527*^9}}],
+   3.659366993636286*^9, 3.659366998150527*^9}, 3.659449122578527*^9}],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -7576,79 +7579,194 @@ Cell[BoxData[
       FontWeight->Bold], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20]},
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]]},
     {
      StyleBox["\<\"\"\>",
       StripOnInput->False,
@@ -7679,79 +7797,192 @@ Cell[BoxData[
       FontWeight->Bold], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20]},
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]]},
     {
      StyleBox["3",
       StripOnInput->False,
@@ -7782,79 +8013,193 @@ Cell[BoxData[
       FontWeight->Bold], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20]},
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]]},
     {
      StyleBox["\<\"\"\>",
       StripOnInput->False,
@@ -7885,79 +8230,188 @@ Cell[BoxData[
       FontWeight->Bold], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20]},
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]]},
     {
      StyleBox["\<\"\"\>",
       StripOnInput->False,
@@ -7988,79 +8442,198 @@ Cell[BoxData[
       FontWeight->Bold], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20]},
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]]},
     {
      StyleBox["\<\"\"\>",
       StripOnInput->False,
@@ -8091,79 +8664,185 @@ Cell[BoxData[
       FontWeight->Bold], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20]},
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]]},
     {
      StyleBox["\<\"\"\>",
       StripOnInput->False,
@@ -8194,79 +8873,192 @@ Cell[BoxData[
       FontWeight->Bold], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20]},
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]]},
     {
      StyleBox["\<\"\"\>",
       StripOnInput->False,
@@ -8297,79 +9089,193 @@ Cell[BoxData[
       FontWeight->Bold], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20]},
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]]},
     {
      StyleBox["1",
       StripOnInput->False,
@@ -9922,7 +10828,8 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{1.25}}, "Rows" -> {{1.25}}},
    GridBoxSpacings->{"Columns" -> {{0.2}}, "Rows" -> {{0.2}}}],
   "Grid"]], "Output",
- CellChangeTimes->{3.6593732908368587`*^9}]
+ CellChangeTimes->{3.6593732908368587`*^9, 3.659450808552252*^9, 
+  3.659452025590788*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -12925,79 +13832,204 @@ Cell[BoxData[
       FontWeight->Bold], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20]},
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]]},
     {
      StyleBox["\<\"\"\>",
       StripOnInput->False,
@@ -13028,79 +14060,204 @@ Cell[BoxData[
       FontWeight->Bold], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20]},
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]]},
     {
      StyleBox["\<\"\"\>",
       StripOnInput->False,
@@ -13131,79 +14288,204 @@ Cell[BoxData[
       FontWeight->Bold], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20]}
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]]}
    },
    AutoDelete->False,
    GridBoxAlignment->{"Columns" -> {{Center}}},
@@ -13211,7 +14493,8 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{1.25}}, "Rows" -> {{1.25}}},
    GridBoxSpacings->{"Columns" -> {{0.2}}, "Rows" -> {{0.2}}}],
   "Grid"]], "Output",
- CellChangeTimes->{3.6593732953754797`*^9}]
+ CellChangeTimes->{3.6593732953754797`*^9, 3.659450811603701*^9, 
+  3.659452025966016*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -14572,79 +15855,198 @@ Cell[BoxData[
       FontWeight->Bold], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20]},
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]]},
     {
      StyleBox["\<\"\"\>",
       StripOnInput->False,
@@ -14675,79 +16077,185 @@ Cell[BoxData[
       FontWeight->Bold], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/27dsZ/584cYIRJgCUZfxvamqKKmBjYzMqgCRgZmYGF9i7dy/j
+/7Nnz0IFGBgBMnygTA==\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]], 
      GraphicsBox[
       {GrayLevel[1], RectangleBox[{0, 0}]},
-      ImageSize->20]},
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BACg5iCgGRgAfB2LY\
+\>"]]},
     {
      StyleBox["\<\"\"\>",
       StripOnInput->False,
@@ -16506,7 +18014,8 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{1.25}}, "Rows" -> {{1.25}}},
    GridBoxSpacings->{"Columns" -> {{0.2}}, "Rows" -> {{0.2}}}],
   "Grid"]], "Output",
- CellChangeTimes->{3.659373307708687*^9, 3.659440954428755*^9}]
+ CellChangeTimes->{3.659373307708687*^9, 3.659440954428755*^9, 
+  3.659450823820505*^9, 3.659452035181959*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -16519,7 +18028,8 @@ Cell[BoxData[
    3.659366832969185*^9, 3.659367102844441*^9}],
 
 Cell[BoxData["True"], "Output",
- CellChangeTimes->{3.659373311038247*^9}]
+ CellChangeTimes->{3.659373311038247*^9, 3.659450827222735*^9, 
+  3.6594520353112307`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -16533,7 +18043,8 @@ Cell[BoxData[
  CellChangeTimes->{3.659293521624321*^9, 3.6593668381242456`*^9}],
 
 Cell[BoxData["\<\"http://www.sciencegames.com\"\>"], "Output",
- CellChangeTimes->{3.659373312914608*^9}]
+ CellChangeTimes->{3.659373312914608*^9, 3.6594508290071573`*^9, 
+  3.6594520353748703`*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -19843,7 +21354,8 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{1.25}}, "Rows" -> {{1.25}}},
    GridBoxSpacings->{"Columns" -> {{0.2}}, "Rows" -> {{0.2}}}],
   "Grid"]], "Output",
- CellChangeTimes->{3.6593733183826923`*^9}]
+ CellChangeTimes->{3.6593733183826923`*^9, 3.65945083398661*^9, 
+  3.659452035646535*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -23137,7 +24649,8 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{1.25}}, "Rows" -> {{1.25}}},
    GridBoxSpacings->{"Columns" -> {{0.2}}, "Rows" -> {{0.2}}}],
   "Grid"]], "Output",
- CellChangeTimes->{3.659373332656548*^9}]
+ CellChangeTimes->{3.659373332656548*^9, 3.659450853756175*^9, 
+  3.659452049698476*^9}]
 }, Open  ]],
 
 Cell[BoxData[{
@@ -26442,7 +27955,8 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{1.25}}, "Rows" -> {{1.25}}},
    GridBoxSpacings->{"Columns" -> {{0.2}}, "Rows" -> {{0.2}}}],
   "Grid"]], "Output",
- CellChangeTimes->{3.6593733435729637`*^9}]
+ CellChangeTimes->{3.6593733435729637`*^9, 3.659450861402544*^9, 
+  3.659452050083914*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -29735,7 +31249,8 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{1.25}}, "Rows" -> {{1.25}}},
    GridBoxSpacings->{"Columns" -> {{0.2}}, "Rows" -> {{0.2}}}],
   "Grid"]], "Output",
- CellChangeTimes->{3.659373357094499*^9}]
+ CellChangeTimes->{3.659373357094499*^9, 3.659450875577301*^9, 
+  3.659452064820901*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -29745,7 +31260,8 @@ Cell[BoxData[
  CellChangeTimes->{{3.6593667405782843`*^9, 3.659366751752698*^9}}],
 
 Cell[BoxData["True"], "Output",
- CellChangeTimes->{3.65937336045966*^9}]
+ CellChangeTimes->{3.65937336045966*^9, 3.6594508757349854`*^9, 
+  3.65945206500642*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -29759,7 +31275,8 @@ Cell[BoxData[
  CellChangeTimes->{3.659293521624321*^9}],
 
 Cell[BoxData["\<\"http://www.subtleknife.com\"\>"], "Output",
- CellChangeTimes->{3.6593733627434263`*^9}]
+ CellChangeTimes->{3.6593733627434263`*^9, 3.65945087579805*^9, 
+  3.659452065087873*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -29772,27 +31289,41 @@ Cell["Givens can be reduced", "Subsection",
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"knownsFromUrlMin", " ", "=", " ", 
-  RowBox[{"Position", "[", 
-   RowBox[{"givensFromUrl", ",", "1"}], "]"}]}]], "Input",
- CellChangeTimes->{{3.6594400381281433`*^9, 3.659440061237056*^9}, {
-  3.6594404861833267`*^9, 3.659440510083022*^9}}],
+ RowBox[{"knownsFromUrlMax", "=", 
+  RowBox[{"knowns", "[", "givensFromUrl", "]"}]}]], "Input",
+ CellChangeTimes->{{3.6594502739791517`*^9, 3.6594503031089697`*^9}, {
+  3.659451038783106*^9, 3.659451041087062*^9}}],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{
    RowBox[{"{", 
-    RowBox[{"13", ",", "13"}], "}"}], ",", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"13", ",", "13"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"14", ",", "12"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"15", ",", "9"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"16", ",", "12"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"17", ",", "14"}], "}"}]}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"14", ",", "12"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"15", ",", "9"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"16", ",", "12"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"17", ",", "14"}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{3.659440062197762*^9, 3.6594404671319942`*^9, 
-  3.6594405514521*^9}]
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"13", ",", "14"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"14", ",", "9"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"14", ",", "13"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"15", ",", "12"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"16", ",", "9"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"17", ",", "12"}], "}"}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.659450885754818*^9, 3.6594520680405903`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -29807,14 +31338,14 @@ Cell[BoxData[{
      RowBox[{"{", 
       RowBox[{
        RowBox[{"{", 
-        RowBox[{
-        "knownsFromUrlMin", "\[LeftDoubleBracket]", "1", 
-         "\[RightDoubleBracket]"}], "}"}], ",", 
+        RowBox[{"knownsFromUrlMax", "\[LeftDoubleBracket]", 
+         RowBox[{"1", ",", "1"}], "\[RightDoubleBracket]"}], "}"}], ",", 
        RowBox[{"{", "}"}]}], "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{"showTable", "[", 
   RowBox[{"givensFromUrlMin", ",", " ", "cluesFromURL"}], "]"}]}], "Input",
  CellChangeTimes->{{3.6594402774371967`*^9, 3.6594403834324703`*^9}, {
-  3.6594404967830544`*^9, 3.6594405761422453`*^9}}],
+   3.6594404967830544`*^9, 3.6594405761422453`*^9}, {3.6594503057793217`*^9, 
+   3.659450305945834*^9}, 3.659451046274338*^9}],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -33093,7 +34624,8 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{1.25}}, "Rows" -> {{1.25}}},
    GridBoxSpacings->{"Columns" -> {{0.2}}, "Rows" -> {{0.2}}}],
   "Grid"]], "Output",
- CellChangeTimes->{3.659440397296027*^9, 3.659440579193336*^9}]
+ CellChangeTimes->{3.659440397296027*^9, 3.659440579193336*^9, 
+  3.659450894710641*^9, 3.6594520707314787`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -36385,7 +37917,8 @@ Cell[BoxData[
    GridBoxItemSize->{"Columns" -> {{1.25}}, "Rows" -> {{1.25}}},
    GridBoxSpacings->{"Columns" -> {{0.2}}, "Rows" -> {{0.2}}}],
   "Grid"]], "Output",
- CellChangeTimes->{3.659440593279669*^9, 3.659440975295796*^9}]
+ CellChangeTimes->{3.659440593279669*^9, 3.659440975295796*^9, 
+  3.659450908568027*^9, 3.6594520834175777`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -36399,7 +37932,8 @@ Cell[BoxData[
  CellChangeTimes->{{3.659440790104312*^9, 3.6594408127204523`*^9}}],
 
 Cell[BoxData["\<\"http://www.sciencegames.com\"\>"], "Output",
- CellChangeTimes->{3.659440793216858*^9, 3.659440975520885*^9}]
+ CellChangeTimes->{3.659440793216858*^9, 3.659440975520885*^9, 
+  3.659450912123684*^9, 3.6594520835996313`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -36411,7 +37945,8 @@ Cell[BoxData[
   3.659441000323*^9, 3.659441001693141*^9}}],
 
 Cell[BoxData["True"], "Output",
- CellChangeTimes->{{3.659440979327145*^9, 3.659441004039407*^9}}]
+ CellChangeTimes->{{3.659440979327145*^9, 3.659441004039407*^9}, 
+   3.6594509145757093`*^9, 3.659452083672488*^9}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
