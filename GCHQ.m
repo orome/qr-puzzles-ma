@@ -103,7 +103,9 @@ or, "by hand"
 
 *)
 
-puzzleFromUrl[url_] := Module[{puzGoal = 1 - ImageData[BarcodeImage[url, "QR", 25]], puzClues},
+(* Currently only works for QR, Aztec, and Datamatrix, and sizes <= 25 *)
+(* TBD - Test for valid arguments *)
+puzzleFromString[url_, fmt_:"QR", size_:25] := Module[{puzGoal = 1 - ImageData[BarcodeImage[url, fmt, size]], puzClues},
   puzClues = clues[puzGoal];
   {puzGoal, puzClues, givens[Length /@ puzClues, knowns[puzGoal, solve[puzClues]]]}];
 
