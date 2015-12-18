@@ -121,6 +121,9 @@ givens[dims_, knowns_ : {{}, {}}] := Module[{const = unconstrained[dims]},
   (const[[Sequence @@ #]] = 1)& /@ knowns[[1]]; (const[[Sequence @@ #]] = 0)& /@ knowns[[2]]; const
 ];
 
+(* TBD - Automate making harder/easier through knowns reduction/increase *)
+(* TBD - Generation directly from a bitmap *)
+
 
 
 (* ==================== Example: GCHQ Problem statement *)
