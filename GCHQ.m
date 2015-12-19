@@ -20,6 +20,10 @@
 *)
 
 BeginPackage["GCHQ`"]
+
+Unprotect@@Names["GCHQ*"];
+ClearAll@@Names["GCHQ*"];
+
 (* Exported symbols added here with SymbolName::usage *)
 
 (* ::Package:: *)
