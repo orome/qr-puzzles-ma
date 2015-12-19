@@ -25,7 +25,8 @@ Unprotect@@Names["GCHQ*"];
 ClearAll@@Names["GCHQ*"];
 
 (* Exported symbols added here with SymbolName::usage *)
-GCHQ::usage = "Test package";
+GCHQ::usage = "A package for solving and generating puzzles based on small bitmaps encoding infromation, especially
+QR codes. Inspired by the 2015 GCHQ Christmas Puzzle.";
 
 solve::usage = "Solve it";
 
