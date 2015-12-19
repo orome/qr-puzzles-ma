@@ -25,8 +25,29 @@ Unprotect@@Names["GCHQ*"];
 ClearAll@@Names["GCHQ*"];
 
 (* Exported symbols added here with SymbolName::usage *)
+GCHQ::usage = "Test package";
+
+solve::usage = "Solve it";
+
+showTable::usage = "Show the puzzle";
+
+puzzleFromString::usage = "Generate a puzzle from a string";
+clues::usage = "Clues";
+knowns::usage = "Knowns";
+unconstrained::usage = "All unknown";
+givens::usage = "Givens";
+
+cluesGCHQ::usage = "Example GCHQ clues";
+givensGCHQ::usage = "Example GCHQ givens";
+
+
 
 (* ::Package:: *)
+
+Begin["`Private`"]
+
+
+(* ******************** Public exported functions and definitions *)
 
 
 (* ==================== Solution *)
@@ -58,7 +79,6 @@ solve[clues_, given_] := Module[{poss = possibles[clues], sol},
   FixedPoint[(sol = Transpose@MapThread[constraint, {poss[[1]], #}];
               sol = Transpose@MapThread[constraint, {poss[[2]], sol}])&, given]];
 solve[clues_] := solve[clues, unconstrained[Length /@ clues]];
-
 
 
 (* ==================== Display *)
@@ -129,7 +149,6 @@ givens[dims_, knowns_ : {{}, {}}] := Module[{const = unconstrained[dims]},
 (* TBD - Generation directly from a bitmap *)
 
 
-
 (* ==================== Example: GCHQ Problem statement *)
 
 (* The 2015 GHCQ puzzle as an example:
@@ -167,9 +186,10 @@ givensGCHQ = givens[Length /@ cluesGCHQ,
 
 
 
-Begin["`Private`"]
+(* ******************** Internal supporting functions and definitions *)
 
-(* ==================== Solution *)
+
+(* ==================== Solution; supporting functions *)
 
 (* Generate a new row/column constraint from possible row/columns and an existing constraint. *)
 constraint[_, const_] := const /; FreeQ[const, unknown];
@@ -188,7 +208,8 @@ possible[clue_, dim_] := Module[{spec},
 possibles[clues_] := With[{dims = Length /@ clues},
   {possible[#, dims[[2]]]& /@ clues[[1]], possible[#, dims[[1]]]& /@ clues[[2]]}];
 
-(* ==================== Display, etc. *)
+
+(* ==================== Display, etc.; supporting definitions *)
 
 (* Some constants for use in display, etc. *)
 unknown = "-";
