@@ -6,7 +6,7 @@
 (* :Date: 2015-12-17 *)
 
 (* :Package Version: 0.3 *)
-(* :Mathematica Version: *)
+(* :Mathematica Version: 10.3 *)
 (* :Copyright: (c) 2015 Roy Levien *)
 (* :Keywords: *)
 (* :Discussion: *)
