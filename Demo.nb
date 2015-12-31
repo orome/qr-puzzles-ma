@@ -5,10 +5,10 @@ Cell[BoxData[{
    RowBox[{"NotebookDirectory", "[", "]"}], "]"}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"Get", "[", "\"\<GCHQ`\>\"", "]"}], ";"}]}], "Input",
+  RowBox[{"Get", "[", "\"\<QRPuzzles`\>\"", "]"}], ";"}]}], "Input",
  CellChangeTimes->{{3.659193943530059*^9, 3.659193981922901*^9}, {
   3.65919405424537*^9, 3.659194056133321*^9}, {3.659194351479824*^9, 
-  3.659194352175536*^9}}],
+  3.659194352175536*^9}, {3.660588594400421*^9, 3.660588597749611*^9}}],
 
 Cell[CellGroupData[{
 
@@ -124,7 +124,6 @@ Cell[BoxData[
         {
          ButtonBox["clues",
           BaseStyle->"InformationLink",
-          
           ButtonData:>{
            "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"clues", "GCHQ`"}},
           ButtonNote->"GCHQ`"], 
@@ -189,6 +188,7 @@ Cell[BoxData[
         {
          ButtonBox["const",
           BaseStyle->"InformationLink",
+          
           ButtonData:>{
            "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"const", "GCHQ`"}},
           ButtonNote->"GCHQ`"], 

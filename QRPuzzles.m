@@ -19,10 +19,10 @@
 
 *)
 
-BeginPackage["GCHQ`"]
+BeginPackage["QRPuzzles`"]
 
-Unprotect@@Names["GCHQ*"];
-ClearAll@@Names["GCHQ*"];
+Unprotect@@Names["QRPuzzles*"];
+ClearAll@@Names["QRPuzzles*"];
 
 (* Exported symbols added here with SymbolName::usage *)
 GCHQ::usage = "A package for solving and generating puzzles based on small bitmaps encoding infromation, especially
