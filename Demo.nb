@@ -13,21 +13,25 @@ Cell[BoxData[{
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"?", "GCHQ"}]], "Input",
+ RowBox[{"?", "QRPuzzles"}]], "Input",
  CellChangeTimes->{{3.65952566609464*^9, 3.659525670120964*^9}, {
-  3.659525866713481*^9, 3.659525871105638*^9}}],
+  3.659525866713481*^9, 3.659525871105638*^9}, {3.660588670626646*^9, 
+  3.660588672975932*^9}}],
 
 Cell[BoxData[
- StyleBox["\<\"Test package\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.659525867526456*^9},
- CellTags->"Info-1e94bffe-2306-43dc-a373-a989c14fba3c"]
+ StyleBox["\<\"A package for solving and generating puzzles based on small \
+bitmaps encoding infromation, especially\\nQR codes. Inspired by the 2015 \
+GCHQ Christmas Puzzle.\"\>", "MSG"]], "Print", "PrintUsage",
+ CellChangeTimes->{3.66058874851543*^9},
+ CellTags->"Info-f40d20ba-ce5b-42f7-b60b-95181d92e12c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"?", "\"\<GCHQ`*\>\""}]], "Input",
- CellChangeTimes->{{3.659525857540723*^9, 3.6595258611128273`*^9}}],
+ RowBox[{"?", "\"\<QRPuzzles`*\>\""}]], "Input",
+ CellChangeTimes->{{3.659525857540723*^9, 3.6595258611128273`*^9}, 
+   3.6605886871149054`*^9}],
 
 Cell[BoxData[
  DynamicModuleBox[{Typeset`open$$ = True}, 
@@ -35,254 +39,91 @@ Cell[BoxData[
    RowBox[{
     OpenerBox[Dynamic[Typeset`open$$],
      ImageSize->Small], 
-    StyleBox["GCHQ`", "InfoHeading"]}], True->GridBox[{
+    StyleBox["QRPuzzles`", "InfoHeading"]}], True->GridBox[{
      {
       RowBox[{
        OpenerBox[Dynamic[Typeset`open$$],
         ImageSize->Small], 
-       StyleBox["GCHQ`", "InfoHeading"]}]},
+       StyleBox["QRPuzzles`", "InfoHeading"]}]},
      {GridBox[{
-        {
-         ButtonBox["cc",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"cc", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["cr",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"cr", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["givens",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"givens", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["possibles",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {
-            "possibles", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["showTable",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {
-            "showTable", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["unknown",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"unknown", "GCHQ`"}},
-          
-          ButtonNote->"GCHQ`"]},
-        {
-         ButtonBox["cellGraphics",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {
-            "cellGraphics", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["data",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"data", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["givensFromUrl",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {
-            "givensFromUrl", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["poss$",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"poss$", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["size",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"size", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["url",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"url", "GCHQ`"}},
-          ButtonNote->"GCHQ`"]},
         {
          ButtonBox["clues",
           BaseStyle->"InformationLink",
+          
           ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"clues", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["dims",
+           "Info-b05400fb-1254-45ed-844a-412b9014e874", {
+            "clues", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"], 
+         ButtonBox["GCHQ",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"dims", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
+           "Info-b05400fb-1254-45ed-844a-412b9014e874", {
+            "GCHQ", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"], 
          ButtonBox["givensGCHQ",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {
-            "givensGCHQ", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["puzClues",
+           "Info-b05400fb-1254-45ed-844a-412b9014e874", {
+            "givensGCHQ", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"], 
+         ButtonBox["puzzleFromString",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"puzClues", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["sol",
+           "Info-b05400fb-1254-45ed-844a-412b9014e874", {
+            "puzzleFromString", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"], 
+         ButtonBox["showTable",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"sol", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], ""},
+           "Info-b05400fb-1254-45ed-844a-412b9014e874", {
+            "showTable", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"], 
+         ButtonBox["unconstrained",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info-b05400fb-1254-45ed-844a-412b9014e874", {
+            "unconstrained", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"]},
         {
          ButtonBox["cluesGCHQ",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {
-            "cluesGCHQ", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["dims$",
+           "Info-b05400fb-1254-45ed-844a-412b9014e874", {
+            "cluesGCHQ", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"], 
+         ButtonBox["givens",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"dims$", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["goal",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"goal", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["puzClues$",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {
-            "puzClues$", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["solve",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"solve", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], ""},
-        {
-         ButtonBox["const",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"const", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["fmt",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"fmt", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["gridSpecs",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {
-            "gridSpecs", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["puzGoal",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"puzGoal", "GCHQ`"}},
-          
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["sol$",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"sol$", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], ""},
-        {
-         ButtonBox["constraint",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {
-            "constraint", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["GCHQ",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"GCHQ", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
+           "Info-b05400fb-1254-45ed-844a-412b9014e874", {
+            "givens", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"], 
          ButtonBox["knowns",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"knowns", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["puzGoal$",
+           "Info-b05400fb-1254-45ed-844a-412b9014e874", {
+            "knowns", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"], 
+         ButtonBox["QRPuzzles",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"puzGoal$", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["t",
+           "Info-b05400fb-1254-45ed-844a-412b9014e874", {
+            "QRPuzzles", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"], 
+         ButtonBox["solve",
           BaseStyle->"InformationLink",
-          
           ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"t", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], ""},
-        {
-         ButtonBox["const$",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"const$", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["given",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"given", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["poss",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {"poss", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["puzzleFromString",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {
-            "puzzleFromString", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], 
-         ButtonBox["unconstrained",
-          BaseStyle->"InformationLink",
-          
-          ButtonData:>{
-           "Info-8daed3d5-5cf0-4c72-b708-cf13c02f9edd", {
-            "unconstrained", "GCHQ`"}},
-          ButtonNote->"GCHQ`"], ""}
+           "Info-b05400fb-1254-45ed-844a-412b9014e874", {
+            "solve", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"], ""}
        },
        DefaultBaseStyle->"InfoGrid",
        GridBoxItemSize->{"Columns" -> {{
@@ -291,7 +132,7 @@ Cell[BoxData[
     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}]}, 
    Dynamic[Typeset`open$$],
    ImageSize->Automatic]]], "Print", "InfoCell",
- CellChangeTimes->{3.659525862949896*^9}]
+ CellChangeTimes->{3.660588750752059*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2065,79 +1906,204 @@ Cell[BoxData[
       FontWeight->Bold], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20], 
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]], 
      GraphicsBox[
       {GrayLevel[0.95], RectangleBox[{0, 0}]},
-      ImageSize->20]},
+      ImageSize->20,
+      ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwiACxqAIDiP0fyIQS
+Iv+BgIFB6P/v378Z///584cRJvDp0yfG/1+/fh0VIE5AGCn0GBgB9fv5RA==
+\
+\>"]]},
     {
      StyleBox["\<\"\"\>",
       StripOnInput->False,

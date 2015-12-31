@@ -1,7 +1,7 @@
 (* Mathematica Package *)
 
-(* :Title: GCHQ *)
-(* :Context: GCHQ` *)
+(* :Title: QRPuzzles *)
+(* :Context: QRPuzzles` *)
 (* :Author: Roy Levien *)
 (* :Date: 2015-12-17 *)
 
@@ -15,7 +15,7 @@
 (* USAGE:
 
     SetDirectory[NotebookDirectory[]];
-    Get["GCHQ`"];
+    Get["QRPuzzles`"];
 
 *)
 
@@ -25,7 +25,7 @@ Unprotect@@Names["QRPuzzles*"];
 ClearAll@@Names["QRPuzzles*"];
 
 (* Exported symbols added here with SymbolName::usage *)
-GCHQ::usage = "A package for solving and generating puzzles based on small bitmaps encoding infromation, especially
+QRPuzzles::usage = "A package for solving and generating puzzles based on small bitmaps encoding infromation, especially
 QR codes. Inspired by the 2015 GCHQ Christmas Puzzle.";
 
 solve::usage = "Solve it";
