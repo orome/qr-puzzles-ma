@@ -21,7 +21,7 @@ A general description of the pacakge can be found by executing
 
     ?QRPuzzles
 
-and more detail ([under construction](https://github.com/orome/gchq-puzzles/issues/1))
+and more detail ([under construction](https://github.com/orome/qr-puzzles/issues/1))
 is available on each of the provided functions using
 
     ?"QRPuzzles`*"
