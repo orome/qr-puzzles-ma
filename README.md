@@ -15,12 +15,23 @@ To use this package place it a location where it will be found and execute
 
     Get["QRPuzzles`"];
 
+### Documentation
+
 A general description of the pacakge can be found by executing
 
     ?QRPuzzles
 
-and more detail is availble on each of the provided functions using
+and more detail ([under construction](https://github.com/orome/gchq-puzzles/issues/1))
+is available on each of the provided functions using
 
     ?"QRPuzzles`*"
 
-[open issues]: https://github.com/orome/qr-puzzles/issues
+as well as in the comments in [the package code](QRPuzzles.m).
+
+Much can be learned by simply walking through the examples in the demo notebook, and examining the values generated there.
+
+### Issues and bugs
+
+Please report any [issues] or suggestions for improvement.
+
+[issues]: https://github.com/orome/qr-puzzles/issues
