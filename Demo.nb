@@ -20,10 +20,10 @@ Cell[BoxData[
 
 Cell[BoxData[
  StyleBox["\<\"A package for solving and generating puzzles based on small \
-bitmaps encoding infromation, especially\\nQR codes. Inspired by the 2015 \
+bitmaps encoding infromation, especially QR codes.\\nInspired by the 2015 \
 GCHQ Christmas Puzzle.\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.6606532311816874`*^9},
- CellTags->"Info-6c7004ea-eb2b-4a6c-98e0-291dbe589b71"]
+ CellChangeTimes->{3.66067117273378*^9},
+ CellTags->"Info-0a154509-327e-4af4-bd22-eb166745b536"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -51,35 +51,35 @@ Cell[BoxData[
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-1ddc36d3-c06f-460e-b9c5-8354f5e74b1f", {
+           "Info-287e73e7-e349-4c17-821d-2bc1753d6402", {
             "clues", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"], 
          ButtonBox["givens",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-1ddc36d3-c06f-460e-b9c5-8354f5e74b1f", {
+           "Info-287e73e7-e349-4c17-821d-2bc1753d6402", {
             "givens", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"], 
          ButtonBox["knowns",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-1ddc36d3-c06f-460e-b9c5-8354f5e74b1f", {
+           "Info-287e73e7-e349-4c17-821d-2bc1753d6402", {
             "knowns", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"], 
          ButtonBox["QRPuzzles",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-1ddc36d3-c06f-460e-b9c5-8354f5e74b1f", {
+           "Info-287e73e7-e349-4c17-821d-2bc1753d6402", {
             "QRPuzzles", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"], 
          ButtonBox["solve",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-1ddc36d3-c06f-460e-b9c5-8354f5e74b1f", {
+           "Info-287e73e7-e349-4c17-821d-2bc1753d6402", {
             "solve", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"]},
         {
@@ -87,35 +87,35 @@ Cell[BoxData[
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-1ddc36d3-c06f-460e-b9c5-8354f5e74b1f", {
+           "Info-287e73e7-e349-4c17-821d-2bc1753d6402", {
             "cluesGCHQ", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"], 
          ButtonBox["givensGCHQ",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-1ddc36d3-c06f-460e-b9c5-8354f5e74b1f", {
+           "Info-287e73e7-e349-4c17-821d-2bc1753d6402", {
             "givensGCHQ", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"], 
          ButtonBox["puzzleFromString",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-1ddc36d3-c06f-460e-b9c5-8354f5e74b1f", {
+           "Info-287e73e7-e349-4c17-821d-2bc1753d6402", {
             "puzzleFromString", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"], 
          ButtonBox["showTable",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-1ddc36d3-c06f-460e-b9c5-8354f5e74b1f", {
+           "Info-287e73e7-e349-4c17-821d-2bc1753d6402", {
             "showTable", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"], 
          ButtonBox["unconstrained",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info-1ddc36d3-c06f-460e-b9c5-8354f5e74b1f", {
+           "Info-287e73e7-e349-4c17-821d-2bc1753d6402", {
             "unconstrained", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"]}
        },
@@ -126,7 +126,7 @@ Cell[BoxData[
     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}]}, 
    Dynamic[Typeset`open$$],
    ImageSize->Automatic]]], "Print", "InfoCell",
- CellChangeTimes->{3.660653233830681*^9}]
+ CellChangeTimes->{3.660671174975305*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3425,7 +3425,7 @@ Cell[BoxData[
  CellChangeTimes->{3.6593732641929417`*^9, 3.659373787987089*^9, 
   3.65945078383237*^9, 3.659452000713148*^9, 3.659523952694683*^9, 
   3.6595255153514557`*^9, 3.659525567492517*^9, 3.660653239618765*^9, 
-  3.6606535247358*^9}]
+  3.6606535247358*^9, 3.660671450385292*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6719,7 +6719,7 @@ Cell[BoxData[
   "Grid"]], "Output",
  CellChangeTimes->{3.659373273409889*^9, 3.659450794307253*^9, 
   3.65945200993991*^9, 3.659523962822193*^9, 3.659525576694084*^9, 
-  3.660653250715981*^9, 3.660653534365224*^9}]
+  3.660653250715981*^9, 3.660653534365224*^9, 3.660671460181398*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -36713,8 +36713,8 @@ Cell[BoxData["True"], "Output",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1063, 718},
-WindowMargins->{{Automatic, 70}, {Automatic, 6}},
+WindowSize->{1032, 718},
+WindowMargins->{{Automatic, 101}, {Automatic, 6}},
 PrivateNotebookOptions->{"FileOutlineCache"->False},
 FrontEndVersion->"10.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (December 10, \
 2015)",
