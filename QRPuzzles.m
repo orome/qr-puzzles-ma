@@ -5,7 +5,7 @@
 (* :Author: Roy Levien *)
 (* :Date: 2015-12-17 *)
 
-(* :Package Version: 0.3 *)
+(* :Package Version: 0.4 *)
 (* :Mathematica Version: 10.3 *)
 (* :Copyright: (c) 2015 Roy Levien *)
 (* :Keywords: *)
@@ -137,7 +137,7 @@ puzzleFromString[url_, fmt_:"QR", size_:25] := Module[{puzGoal = 1 - ImageData[B
 clues[data_] := ((Length /@ Select[Split[#], FreeQ[#, 0]&])& /@ #)& /@ {data, Transpose@data};
 
 knowns[goal_, const_] := Intersection[Position[goal, #] , Position[const, "-"]]& /@ {1, 0};
-knowns[givens_] :=  Position[givensFromUrl, #]& /@ {1, 0};
+knowns[givens_] :=  Position[givens, #]& /@ {1, 0};
 
 unconstrained[dims_] := ConstantArray[unknown, dims];
 
