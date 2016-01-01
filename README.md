@@ -1,7 +1,7 @@
 ## qr-puzzles
 
-[![Mathematica](https://img.shields.io/badge/language-Mathematica-blue.svg)](https://www.haskell.org)
-[![BSD3 License](http://img.shields.io/badge/license-BSD3-brightgreen.svg)](https://github.com/orome/crypto-enigma-hs/blob/hackage/LICENSE)
+[![Mathematica](https://img.shields.io/badge/language-Mathematica-blue.svg)](https://www.wolfram.com/mathematica/)
+[![BSD3 License](http://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://choosealicense.com/licenses/bsd-3-clause/)
 
 A general [*Mathematica*](https://www.wolfram.com/mathematica/) [module](QRPuzzles.m) for solving and generating
 QR code puzzles, inspired by the
