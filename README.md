@@ -21,7 +21,7 @@ A general description of the pacakge can be found by executing
 
     ?QRPuzzles
 
-and more detail ([under construction](https://github.com/orome/qr-puzzles/issues/1))
+and more detail ([under construction](https://github.com/orome/qr-puzzles-ma/issues/1))
 is available on each of the provided functions using
 
     ?"QRPuzzles`*"
@@ -34,4 +34,4 @@ Much can be learned by simply walking through the examples in the demo notebook,
 
 Please report any [issues] or suggestions for improvement.
 
-[issues]: https://github.com/orome/qr-puzzles/issues
+[issues]: https://github.com/orome/qr-puzzles-ma/issues
