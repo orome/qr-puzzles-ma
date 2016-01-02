@@ -88,7 +88,7 @@ solve[clues_] := solve[clues, table[Length /@ clues]];
 
 (* ==================== Display *)
 
-(* A function to display puzzle state (solutions or givens), optionally labeled with clues *)
+(* A function to display puzzle state table, optionally labeled with clues *)
 showTable[t_, {cr_, cc_}] := Grid[Join[
   Transpose@Join[ConstantArray["", {9, 9}], (Style[#, Bold]& /@ PadLeft[#, 9, ""]& /@ cc)],
   MapThread[Join, {(Style[#, Bold]& /@ PadLeft[#, 9, ""]& /@ cr), (t /. cellGraphics)}]
