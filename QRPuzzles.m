@@ -28,22 +28,21 @@ ClearAll@@Names["QRPuzzles*"];
 QRPuzzles::usage = "A package for solving and generating puzzles based on small bitmaps encoding infromation, especially QR codes.
 Inspired by the 2015 GCHQ Christmas Puzzle.";
 
-solve::usage = "Produce a solution expressed as a table of 1s and 0s, given a puzzle expressed as:
+solve::usage = "Produce a puzzle solution expressed as a table of 1s, 0s, and unknowns, given a puzzle expressed as:
    (1) 'clues' for each row and column, consisting of lists of the numbers of consecutive runs of black cells in each and
-   (2) an optional 'given' partially complete state of the puzzle (expressed as lists of the positions of 1s and of 0s)
-indicating all values that can be determined, along with remaining unknowns.";
+   (2) an optional 'given' partially complete state of the puzzle (expressed as a table of 0s, 1s, and unknowns).";
 
-showTable::usage = "Show the puzzle as a graphic, suitable for scanning or processing as a QR code, with 1s indicated in black, 0s in white, and any unknowns in gray.
+showTable::usage = "Show the puzzle table as a graphic, suitable for scanning or processing as a QR code, with 1s indicated in black, 0s in white, and any unknowns in gray.
 Optionally indicate provided clues as row and column lables (following the format of the 2015 GCHQ puzzle specification).";
 
-puzzleFromString::usage = "Generate a puzzle from a string.";
-clues::usage = "Generate clues from a puzzle.";
-knowns::usage = "Find knowns from a solution goal and constraints.";
-givens::usage = "Givens";
+puzzleFromString::usage = "Generate a completed puzzle from a string, as a tuple consiting of a table of 1s and 0s representing the corresponding QR code as a puzzle solution, clues, and a (sufficient) table of given values.";
+clues::usage = "Generate clues from a completed puzzle table (no unknowns), consisting of lists of the numbers of consecutive runs of black cells in each row and column.";
+missing::usage = "Locate values missing from a 'partial' solution to a given puzzle 'goal' (both as tables), expressed as lists of the positions of 1s and of 0s.";
 (*unconstrained::usage = "A puzzle with all values unknown.";*)
+table::usage = "Generate a puzzle table of given dimensions from lists of positions of 1s and of 0s. Poistions with unspecified values are indicated as unknown.";
 
 cluesGCHQ::usage = "Example GCHQ clues, for demonstration purposes.";
-givensGCHQ::usage = "Example GCHQ givens, for demonstration purposes.";
+givenGCHQ::usage = "Example GCHQ given puzzle table, for demonstration purposes.";
 
 
 
