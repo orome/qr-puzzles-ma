@@ -136,7 +136,7 @@ or, "by hand"
 (* TBD - Test for valid arguments *)
 puzzleFromString[url_, fmt_:"QR", size_:25] := Module[{puzGoal = 1 - ImageData[BarcodeImage[url, fmt, size]], puzClues},
   puzClues = clues[puzGoal];
-  {puzGoal, puzClues, givens[Length /@ puzClues, knowns[puzGoal, solve[puzClues]]]}];
+  {puzGoal, puzClues, table[Length /@ puzClues, missing[puzGoal, solve[puzClues]]]}];
 
 clues[data_] := ((Length /@ Select[Split[#], FreeQ[#, 0]&])& /@ #)& /@ {data, Transpose@data};
 
