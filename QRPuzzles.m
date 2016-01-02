@@ -158,8 +158,8 @@ givens[dims_, knowns_ : {{}, {}}] := Module[{const = unconstrained[dims]},
 
 (* The 2015 GHCQ puzzle as an example:
 
-    showTable[givensGCHQ, cluesGCHQ]
-    solutionGCHQ = solve[cluesGCHQ, givensGCHQ];
+    showTable[givenGCHQ, cluesGCHQ]
+    solutionGCHQ = solve[cluesGCHQ, givenGCHQ];
     showTable[solutionGCHQ, cluesGCHQ]
     BarcodeRecognize[(1-solutionGCHQ)//Image]
 
@@ -183,7 +183,7 @@ cluesGCHQ = {
 };
 
 (* The givens from the known values *)
-givensGCHQ = givens[Length /@ cluesGCHQ,
+givenGCHQ = table[Length /@ cluesGCHQ,
   { {{4, 4}, {4, 5}, {4, 13}, {4, 14}, {4, 22}, {9, 7}, {9, 8}, {9, 11}, {9, 15}, {9, 16}, {9, 19},
     {17, 7}, {17, 12}, {17, 17}, {17, 21}, {22, 4}, {22, 5}, {22, 10}, {22, 11}, {22, 16}, {22, 21}, {22, 22}},
     {}
