@@ -140,8 +140,8 @@ puzzleFromString[url_, fmt_:"QR", size_:25] := Module[{puzGoal = 1 - ImageData[B
 
 clues[data_] := ((Length /@ Select[Split[#], FreeQ[#, 0]&])& /@ #)& /@ {data, Transpose@data};
 
-knowns[goal_, const_] := Intersection[Position[goal, #] , Position[const, "-"]]& /@ {1, 0};
-knowns[givens_] :=  Position[givens, #]& /@ {1, 0};
+missing[goal_, partial_] := Intersection[Position[goal, #] , Position[partial, "-"]]& /@ {1, 0};
+(*knowns[givens_] :=  Position[givens, #]& /@ {1, 0};*)
 
 table[dims_] := ConstantArray[unknown, dims];
 
