@@ -104,12 +104,12 @@ New puzzles can be generated from a full solution or from a URL.
 
 E.g., "automated":
 
-    {goalFromURL, cluesFromURL, givensFromUrl} = puzzleFromUrl["http://www.sciencegames.com"];
+    {goalFromURL, cluesFromURL, givenFromUrl} = puzzleFromString["http://www.sciencegames.com"];
 
     showTable[goalFromURL, cluesFromURL]
-    showTable[givensFromUrl, cluesFromURL]
+    showTable[givenFromUrl, cluesFromURL]
 
-    solutionFromURL = solve[cluesFromURL,givensFromUrl];
+    solutionFromURL = solve[cluesFromURL,givenFromUrl];
     showTable[solutionFromURL,cluesFromURL]
     solutionFromURL==goalFromURL
     BarcodeRecognize[(1-solutionFromURL)//Image]
@@ -119,13 +119,13 @@ or, "by hand"
     goalFromQR = 1-ImageData[BarcodeImage["http://www.subtleknife.com","QR",25]];
     cluesFromQR = clues[goalFromQR];
     solutionPartialFromQR=solve[cluesFromQR];
-    givensFromQR = givens[Length/@cluesFromQR, knowns[goalFromQR,solutionPartialFromQR]];
+    givenFromQR = table[Length/@cluesFromQR, missing[goalFromQR,solutionPartialFromQR]];
 
     showTable[goalFromQR,cluesFromQR]
     showTable[solutionPartialFromQR, cluesFromQR]
-    showTable[givensFromQR, cluesFromQR]
+    showTable[givenFromQR, cluesFromQR]
 
-    solutionFromQR = solve[cluesFromQR, givensFromQR];
+    solutionFromQR = solve[cluesFromQR, givenFromQR];
     showTable[solutionFromQR, cluesFromQR]
     solutionFromQR == goalFromQR
     BarcodeRecognize[(1-solutionFromQR)//Image]
