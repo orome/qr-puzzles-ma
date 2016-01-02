@@ -39,8 +39,8 @@ Optionally indicate provided clues as row and column lables (following the forma
 puzzleFromString::usage = "Generate a puzzle from a string.";
 clues::usage = "Generate clues from a puzzle.";
 knowns::usage = "Find knowns from a solution goal and constraints.";
-unconstrained::usage = "A puzzle with all values unknown.";
 givens::usage = "Givens";
+(*unconstrained::usage = "A puzzle with all values unknown.";*)
 
 cluesGCHQ::usage = "Example GCHQ clues, for demonstration purposes.";
 givensGCHQ::usage = "Example GCHQ givens, for demonstration purposes.";
@@ -83,7 +83,7 @@ puzzle; not worth checking.
 solve[clues_, given_] := Module[{poss = possibles[clues], sol},
   FixedPoint[(sol = Transpose@MapThread[constraint, {poss[[1]], #}];
               sol = Transpose@MapThread[constraint, {poss[[2]], sol}])&, given]];
-solve[clues_] := solve[clues, unconstrained[Length /@ clues]];
+solve[clues_] := solve[clues, table[Length /@ clues]];
 
 
 (* ==================== Display *)
@@ -143,10 +143,9 @@ clues[data_] := ((Length /@ Select[Split[#], FreeQ[#, 0]&])& /@ #)& /@ {data, Tr
 knowns[goal_, const_] := Intersection[Position[goal, #] , Position[const, "-"]]& /@ {1, 0};
 knowns[givens_] :=  Position[givens, #]& /@ {1, 0};
 
-unconstrained[dims_] := ConstantArray[unknown, dims];
+table[dims_] := ConstantArray[unknown, dims];
 
-(*known values, expressed either as lists of the positions of black and white cells, or*)
-givens[dims_, knowns_ : {{}, {}}] := Module[{const = unconstrained[dims]},
+table[dims_, knowns_ ] := Module[{const = table[dims]},
   (const[[Sequence @@ #]] = 1)& /@ knowns[[1]]; (const[[Sequence @@ #]] = 0)& /@ knowns[[2]]; const
 ];
 
