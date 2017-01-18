@@ -30,8 +30,16 @@ as well as in the comments in [the package code](QRPuzzles.m).
 
 Much can be learned by simply walking through the examples in the demo notebook, and examining the values generated there.
 
+### Feedback and discussion
+
+[![Gitter](https://img.shields.io/gitter/room/badges/shields.svg)](https://gitter.im/orome/qr-puzzles-ma)
+
+For all suggestions and discussion, connect on
+[Gitter](https://gitter.im/orome/qr-puzzles-ma).
+
+
 ### Issues and bugs
 
-Please report any [issues] or suggestions for improvement.
+Please report any [issues] or bugs that you find.
 
 [issues]: https://github.com/orome/qr-puzzles-ma/issues
