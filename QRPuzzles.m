@@ -5,7 +5,7 @@
 (* :Author: Roy Levien *)
 (* :Date: 2017-04-14 *)
 
-(* :Package Version: 0.7 *)
+(* :Package Version: 1.0.2.0 *)
 (* :Mathematica Version: 11.1 *)
 (* :Copyright: (c) 2015-2017 Roy Levien *)
 (* :Keywords: *)
