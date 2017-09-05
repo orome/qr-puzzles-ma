@@ -21,8 +21,8 @@
 
 BeginPackage["QRPuzzles`"]
 
-Unprotect@@Names["QRPuzzles*"];
-ClearAll@@Names["QRPuzzles*"];
+Unprotect@@Names["QRPuzzles`*"];
+ClearAll@@Names["QRPuzzles`*"];
 
 (* Exported symbols added here with SymbolName::usage *)
 QRPuzzles::usage = "A package for solving and generating puzzles based on small bitmaps encoding infromation, especially QR codes.
@@ -225,7 +225,8 @@ gridSpecs = Sequence[Frame -> None, Alignment -> Center, ItemSize -> {1.25, 1.25
 (*isDone[strip_] := FreeQ[strip, unknown];*)
 
 End[] (* `Private` *)
-
+(* Protect exported symbols *)
+Protect[solve, showTable, puzzleFromString, missing, clues, table]
 
 
 EndPackage[]
