@@ -225,6 +225,7 @@ gridSpecs = Sequence[Frame -> None, Alignment -> Center, ItemSize -> {1.25, 1.25
 (*isDone[strip_] := FreeQ[strip, unknown];*)
 
 End[] (* `Private` *)
+
 (* Protect exported symbols *)
 Protect[solve, showTable, puzzleFromString, missing, clues, table]
 
