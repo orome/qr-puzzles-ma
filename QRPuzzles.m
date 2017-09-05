@@ -3,10 +3,10 @@
 (* :Title: QRPuzzles *)
 (* :Context: QRPuzzles` *)
 (* :Author: Roy Levien *)
-(* :Date: 2017-04-14 *)
+(* :Date: 2017-09-05 *)
 
-(* :Package Version: 1.0.2.0 *)
-(* :Mathematica Version: 11.1 *)
+(* :Package Version: 1.0.3.0 *)
+(* :Mathematica Version: 11.1.1.0 *)
 (* :Copyright: (c) 2015-2017 Roy Levien *)
 (* :Keywords: *)
 (* :Discussion: *)
