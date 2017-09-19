@@ -19,7 +19,7 @@
 
 *)
 
-BeginPackage["QRPuzzles`"]
+BeginPackage["QRPuzzles`"];
 
 Unprotect@@Names["QRPuzzles`*"];
 ClearAll@@Names["QRPuzzles`*"];
@@ -48,7 +48,7 @@ givenGCHQ::usage = "Example GCHQ given puzzle table, for demonstration purposes.
 
 (* ::Package:: *)
 
-Begin["`Private`"]
+Begin["`Private`"];
 
 
 (* ******************** Public exported functions and definitions *)
@@ -224,10 +224,10 @@ gridSpecs = Sequence[Frame -> None, Alignment -> Center, ItemSize -> {1.25, 1.25
 
 (*isDone[strip_] := FreeQ[strip, unknown];*)
 
-End[] (* `Private` *)
+End[]; (* `Private` *)
 
 (* Protect exported symbols *)
-Protect[solve, showTable, puzzleFromString, missing, clues, table]
+Protect[solve, showTable, puzzleFromString, missing, clues, table];
 
 
-EndPackage[]
+EndPackage[];
