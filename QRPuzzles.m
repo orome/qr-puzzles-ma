@@ -1,9 +1,11 @@
+(* ::Package:: *)
+
 (* Mathematica Package *)
 
 (* :Title: QRPuzzles *)
 (* :Context: QRPuzzles` *)
 (* :Author: Roy Levien *)
-(* :Date: 2017-09-21 *)
+(* :Date: 2017-09-22 *)
 
 (* :Package Version: 1.0.3.1 *)
 (* :Mathematica Version: 11.1.1.0 *)
@@ -45,8 +47,6 @@ cluesGCHQ::usage = "Example GCHQ clues, for demonstration purposes.";
 givenGCHQ::usage = "Example GCHQ given puzzle table, for demonstration purposes.";
 
 
-
-(* ::Package:: *)
 
 Begin["`Private`"];
 
