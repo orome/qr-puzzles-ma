@@ -4,8 +4,10 @@
 [![BSD3 License](http://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://choosealicense.com/licenses/bsd-3-clause/)
 [![DOI](https://zenodo.org/badge/48863425.svg)](https://zenodo.org/badge/latestdoi/48863425)
 
-A general [*Mathematica*](https://www.wolfram.com/mathematica/) [package](QRPuzzles.m) for solving and generating
-QR code puzzles, inspired by the
+A general [*Mathematica*](https://www.wolfram.com/mathematica/)
+[package](QRPuzzles.m) for solving and generating
+[Nonogram](https://en.wikipedia.org/wiki/Nonogram) ([Oekaki](http://webpbn.com)) QR code puzzles,
+inspired by the
 [GCHQ 2015 Christmas Puzzle](http://www.theguardian.com/uk-news/2015/dec/09/can-you-solve-the-gchqs-infuriatingly-complex-christmas-puzzle).
 
 The included demo notebook (Demo.nb) provides examples on use.
