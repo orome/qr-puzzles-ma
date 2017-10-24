@@ -5,7 +5,7 @@
 (* :Title: QRPuzzles *)
 (* :Context: QRPuzzles` *)
 (* :Author: Roy Levien *)
-(* :Date: 2017-10-21 *)
+(* :Date: 2017-10-24 *)
 
 (* :Package Version: 1.0.3.2 *)
 (* :Mathematica Version: 11.2.0.0 *)
@@ -88,10 +88,12 @@ solve[clues_] := solve[clues, table[Length /@ clues]];
 (* ==================== Display *)
 
 (* A function to display puzzle state table, optionally labeled with clues *)
-showTable[t_, {cr_, cc_}] := Grid[Join[
-  Transpose@Join[ConstantArray["", {9, 9}], (Style[#, Bold]& /@ PadLeft[#, 9, ""]& /@ cc)],
-  MapThread[Join, {(Style[#, Bold]& /@ PadLeft[#, 9, ""]& /@ cr), (t /. cellGraphics)}]
-], gridSpecs];
+showTable[t_, {cr_, cc_}] := With[{lc = Max[Length/@cc], lr = Max[Length/@cr]},
+    Grid[Join[
+      Transpose@Join[ConstantArray["", {lr, lc}], (Style[#, Bold]& /@ PadLeft[#, lc, ""]& /@ cc)],
+      MapThread[Join, {(Style[#, Bold]& /@ PadLeft[#, lr, ""]& /@ cr), (t /. cellGraphics)}]
+    ], gridSpecs]
+];
 showTable[t_] := Grid[t /. cellGraphics, gridSpecs];
 
 
