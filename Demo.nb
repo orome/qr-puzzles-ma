@@ -37400,6 +37400,2136 @@ Cell[BoxData["True"], "Output",
 08497920e5ff"]
 }, Open  ]]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["O\[CloseCurlyQuote]ekaki example", "Section",
+ CellChangeTimes->{{3.659285562836285*^9, 3.65928557496321*^9}, 
+   3.659285652783411*^9, {3.717608341762659*^9, 3.717608342137065*^9}, {
+   3.717862127231394*^9, 3.717862155450815*^9}, {3.7178626403869247`*^9, 
+   3.71786268458075*^9}},ExpressionUUID->"3b360fcc-9aff-4dd0-bdcf-\
+35f2f525a739"],
+
+Cell[TextData[{
+ "An example o`ekaki puzzle: \[OpenCurlyDoubleQuote]Look This Way\
+\[CloseCurlyDoubleQuote] from",
+ ButtonBox[" Puzzle Ninja",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://www.amazon.com/Puzzle-Ninja-Against-Japanese-Masters/dp/\
+1783351365"], None},
+  ButtonNote->
+   "https://www.amazon.com/Puzzle-Ninja-Against-Japanese-Masters/dp/\
+1783351365"],
+ ", p.117."
+}], "Text",
+ CellChangeTimes->{{3.7178621599470263`*^9, 3.7178621713152637`*^9}, {
+  3.717862210731491*^9, 3.7178622107351522`*^9}, {3.717862689061702*^9, 
+  3.717862719893126*^9}},ExpressionUUID->"ba0a8b9a-6b72-4e0f-aad5-\
+8c3f3c532cb6"],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+   RowBox[{"TBD", " ", "--"}], "-", "\[IndentingNewLine]", " ", 
+   RowBox[{
+   "Add", " ", "to", " ", "description", " ", "of", " ", "package", " ", 
+    "and", " ", "each", " ", "function", " ", "\[IndentingNewLine]", "Allow", 
+    " ", "custom", " ", "setting", " ", "for", " ", "clue", " ", "length", 
+    " ", "padding", "\[IndentingNewLine]", "Cite", " ", "book", 
+    "\[IndentingNewLine]", "Deal", " ", "with", " ", "crash", " ", "on", " ", 
+    "bad", " ", "puzzle", " ", "clues", "\[IndentingNewLine]", "Change", " ", 
+    "variable", " ", "names"}]}], "\[IndentingNewLine]", "*)"}]], "Input",
+ CellChangeTimes->{{3.717608349257772*^9, 3.7176083658417253`*^9}, {
+  3.717608399004303*^9, 3.7176084106582537`*^9}, {3.717608443941819*^9, 
+  3.717608453067626*^9}, {3.717608519982999*^9, 3.717608536085782*^9}, {
+  3.7178627382298098`*^9, 3.7178627425739527`*^9}, {3.717863799498909*^9, 
+  3.717863821257276*^9}},ExpressionUUID->"2151cf66-4791-4869-9923-\
+3792ca274c29"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"showTable", "[", 
+  RowBox[{"givenNinja", ",", "cluesNinja"}], "]"}]], "Input",
+ CellChangeTimes->{{3.717605987819559*^9, 3.717605989522043*^9}, {
+   3.717606166197945*^9, 3.717606174869008*^9}, {3.71760628940991*^9, 
+   3.717606298977376*^9}, {3.7176067484215193`*^9, 3.717606755549687*^9}, 
+   3.717607526448902*^9, 3.717607708097808*^9, {3.717608387698675*^9, 
+   3.717608393561839*^9}, {3.7178636667809687`*^9, 3.717863667137952*^9}, {
+   3.717863703349832*^9, 
+   3.717863722119336*^9}},ExpressionUUID->"44a28ccf-ec3a-4c2e-b291-\
+0ba3f762f2b0"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold]},
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold]},
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["6",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold]},
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["7",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["7",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["8",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["5",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["5",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["4",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["4",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["5",
+      StripOnInput->False,
+      FontWeight->Bold]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["10",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["6",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["4",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["4",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["4",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["8",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0.95], RectangleBox[{0, 0}]},
+      ImageSize->20]}
+   },
+   AutoDelete->False,
+   GridBoxAlignment->{"Columns" -> {{Center}}},
+   GridBoxFrame->{"Columns" -> None, "Rows" -> None},
+   GridBoxItemSize->{"Columns" -> {{1.25}}, "Rows" -> {{1.25}}},
+   GridBoxSpacings->{"Columns" -> {{0.2}}, "Rows" -> {{0.2}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{
+  3.717605990159564*^9, 3.7176060227996397`*^9, 3.7176061224597673`*^9, 
+   3.717606175643304*^9, 3.717606300780553*^9, {3.717606807326604*^9, 
+   3.71760681067696*^9}, 3.71760687783536*^9, 3.7176075278664923`*^9, 
+   3.717607571775334*^9, 3.71760770948274*^9, {3.7176083897231894`*^9, 
+   3.717608394097561*^9}, 3.717862052078974*^9, {3.717863661786963*^9, 
+   3.717863667802598*^9}, {3.717863705126338*^9, 3.717863723376545*^9}, 
+   3.7178640481813183`*^9, 
+   3.717864321373458*^9},ExpressionUUID->"2320bbb7-869c-4df8-a033-\
+ad9d11ad7f42"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"solutionNinja", "=", 
+   RowBox[{"solve", "[", 
+    RowBox[{"cluesNinja", ",", "givenNinja"}], "]"}]}], ";"}], "\n", 
+ RowBox[{"showTable", "[", 
+  RowBox[{"solutionNinja", ",", "cluesNinja"}], "]"}], "\n"}], "Input",
+ CellChangeTimes->{{3.71760806063461*^9, 3.717608063625771*^9}, 
+   3.717608226583419*^9, {3.717608425158244*^9, 3.7176084319869013`*^9}, 
+   3.717863783322329*^9},ExpressionUUID->"ce79fe5b-430f-4004-a679-\
+afe6b04570b5"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold]},
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold]},
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["6",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold]},
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["7",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["7",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["8",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["5",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["5",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["4",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["4",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["5",
+      StripOnInput->False,
+      FontWeight->Bold]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["10",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["6",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["4",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["4",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["4",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["1",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["8",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["2",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20]},
+    {
+     StyleBox["\<\"\"\>",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     StyleBox["3",
+      StripOnInput->False,
+      FontWeight->Bold], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[1], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20], 
+     GraphicsBox[
+      {GrayLevel[0], RectangleBox[{0, 0}]},
+      ImageSize->20]}
+   },
+   AutoDelete->False,
+   GridBoxAlignment->{"Columns" -> {{Center}}},
+   GridBoxFrame->{"Columns" -> None, "Rows" -> None},
+   GridBoxItemSize->{"Columns" -> {{1.25}}, "Rows" -> {{1.25}}},
+   GridBoxSpacings->{"Columns" -> {{0.2}}, "Rows" -> {{0.2}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{
+  3.717608064378529*^9, 3.717608227694648*^9, {3.717608427985837*^9, 
+   3.717608432827355*^9}, 3.717862056158431*^9, 3.7178637878417263`*^9, 
+   3.717864050943212*^9},ExpressionUUID->"2bfe84a4-f4b3-4e5f-a2e7-\
+29dbbecaaf6a"]
+}, Open  ]]
 }, Open  ]]
 },
 WindowSize->{1032, 718},
