@@ -5,9 +5,9 @@
 (* :Title: QRPuzzles *)
 (* :Context: QRPuzzles` *)
 (* :Author: Roy Levien *)
-(* :Date: 2017-12-27 *)
+(* :Date: 2018-01-18 *)
 
-(* :Package Version: 1.0.3.2 *)
+(* :Package Version: 1.0.3.4 *)
 (* :Mathematica Version: 11.2.0.0 *)
 (* :Copyright: (c) 2015-2018 Roy Levien *)
 (* :Keywords: *)
@@ -46,8 +46,8 @@ table::usage = "Generate a puzzle table of given dimensions from lists of positi
 cluesGCHQ::usage = "Example GCHQ clues, for demonstration purposes.";
 givenGCHQ::usage = "Example GCHQ given puzzle table, for demonstration purposes.";
 
-cluesNinja::usage = "XXXXExample GCHQ clues, for demonstration purposes.";
-givenNinja::usage = "XXXXXExample GCHQ given puzzle table, for demonstration purposes.";
+cluesNinja::usage = "Example Puzzle Ninja clues, for demonstration purposes.";
+givenNinja::usage = "Example Puzzle Ninja clues given puzzle table, for demonstration purposes.";
 
 
 Begin["`Private`"];
@@ -201,7 +201,7 @@ givenGCHQ = table[Length /@ cluesGCHQ,
 
 *)
 
-(* Define values for Puzzle Ninja XXXXX puzzle *)
+(* Define values for Puzzle Ninja puzzle *)
 
 (* The "clues" along the sides of the puzzle *)
 cluesNinja = {
