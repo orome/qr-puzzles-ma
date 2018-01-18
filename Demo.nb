@@ -24,10 +24,10 @@ Cell[BoxData[
 Cell[BoxData["\<\"A package for solving and generating puzzles based on small \
 bitmaps encoding information, especially QR codes.\\nInspired by the 2015 \
 GCHQ Christmas Puzzle.\"\>"], "Print", "PrintUsage",
- CellChangeTimes->{3.717606725132588*^9},
+ CellChangeTimes->{3.72529572880585*^9},
  CellTags->
-  "Info33717592325-6880358",ExpressionUUID->"5499ae17-b6c7-43f3-943e-\
-8146b53d2fac"]
+  "Info103725277728-5323051",ExpressionUUID->"4e1e5e89-7624-4638-8c54-\
+84975cd3e122"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -37,6 +37,8 @@ Cell[BoxData[
  CellChangeTimes->{{3.659525857540723*^9, 3.6595258611128273`*^9}, 
    3.6605886871149054`*^9},ExpressionUUID->"952bedb7-6ac6-4d4b-abce-\
 aed24788c118"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  DynamicModuleBox[{Typeset`open$$ = True}, 
@@ -54,60 +56,82 @@ Cell[BoxData[
         {
          ButtonBox["clues",
           BaseStyle->"InformationLink",
-          ButtonData:>{"Info43717592327-6880358", {"clues", "QRPuzzles`"}},
+          ButtonData:>{"Info113725277733-5323051", {"clues", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"], 
          ButtonBox["cluesNinja",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info43717592327-6880358", {"cluesNinja", "QRPuzzles`"}},
+           "Info113725277733-5323051", {"cluesNinja", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"], 
-         ButtonBox["missing",
+         ButtonBox["givenNinja",
           BaseStyle->"InformationLink",
-          ButtonData:>{"Info43717592327-6880358", {"missing", "QRPuzzles`"}},
-          ButtonNote->"QRPuzzles`"], 
-         ButtonBox["QRPuzzles",
-          BaseStyle->"InformationLink",
-          ButtonData:>{"Info43717592327-6880358", {"QRPuzzles", "QRPuzzles`"}},
-          ButtonNote->"QRPuzzles`"], 
-         ButtonBox["solve",
-          BaseStyle->"InformationLink",
-          ButtonData:>{"Info43717592327-6880358", {"solve", "QRPuzzles`"}},
-          ButtonNote->"QRPuzzles`"]},
-        {
-         ButtonBox["cluesGCHQ",
-          BaseStyle->"InformationLink",
-          ButtonData:>{"Info43717592327-6880358", {"cluesGCHQ", "QRPuzzles`"}},
-          ButtonNote->"QRPuzzles`"], 
-         ButtonBox["givenGCHQ",
-          BaseStyle->"InformationLink",
-          ButtonData:>{"Info43717592327-6880358", {"givenGCHQ", "QRPuzzles`"}},
+          
+          ButtonData:>{
+           "Info113725277733-5323051", {"givenNinja", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"], 
          ButtonBox["puzzleFromString",
           BaseStyle->"InformationLink",
           
           ButtonData:>{
-           "Info43717592327-6880358", {"puzzleFromString", "QRPuzzles`"}},
+           "Info113725277733-5323051", {"puzzleFromString", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"], 
          ButtonBox["showTable",
           BaseStyle->"InformationLink",
-          ButtonData:>{"Info43717592327-6880358", {"showTable", "QRPuzzles`"}},
+          
+          ButtonData:>{
+           "Info113725277733-5323051", {"showTable", "QRPuzzles`"}},
           ButtonNote->"QRPuzzles`"], 
          ButtonBox["table",
           BaseStyle->"InformationLink",
-          ButtonData:>{"Info43717592327-6880358", {"table", "QRPuzzles`"}},
-          ButtonNote->"QRPuzzles`"]}
+          ButtonData:>{"Info113725277733-5323051", {"table", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"]},
+        {
+         ButtonBox["cluesGCHQ",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info113725277733-5323051", {"cluesGCHQ", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"], 
+         ButtonBox["givenGCHQ",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info113725277733-5323051", {"givenGCHQ", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"], 
+         ButtonBox["missing",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info113725277733-5323051", {"missing", "QRPuzzles`"}},
+          
+          ButtonNote->"QRPuzzles`"], 
+         ButtonBox["QRPuzzles",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info113725277733-5323051", {"QRPuzzles", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"], 
+         ButtonBox["solve",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info113725277733-5323051", {"solve", "QRPuzzles`"}},
+          ButtonNote->"QRPuzzles`"], ""}
        },
        DefaultBaseStyle->"InfoGrid",
        GridBoxItemSize->{"Columns" -> {{
-            Scaled[0.19]}}}]}
+            Scaled[0.15833333333333333`]}}}]}
     },
     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}]}, 
    Dynamic[Typeset`open$$],
    ImageSize->Automatic]]], "Print", "InfoCell",
  CellChangeTimes->{
-  3.71760672775963*^9},ExpressionUUID->"40832dae-e9cd-4aaa-8b71-ac28b907ca8f"]\
+  3.725295733805427*^9},ExpressionUUID->"2a87bdb8-55df-4243-b3bd-\
+8fca7ed2dce5"],
 
+Cell[BoxData["\<\"Example Puzzle Ninja clues given puzzle table, for \
+demonstration purposes.\"\>"], "Print", "PrintUsage",
+ CellTags->
+  "Info113725277733-5323051",ExpressionUUID->"d92dd4cf-115c-4782-bc21-\
+2295555e1484"]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3414,8 +3438,9 @@ Cell[BoxData[
   3.6607399362335997`*^9, 3.660741923655003*^9, 3.6803650143157883`*^9, 
   3.70115349368997*^9, 3.702218049771455*^9, 3.7136106334202747`*^9, 
   3.713611322983959*^9, 3.7176073485987043`*^9, 3.717863277525877*^9, 
-  3.717863315842805*^9, 3.717863505043008*^9, 
-  3.717864006237825*^9},ExpressionUUID->"f5717fe9-bffe-4532-81b2-49bf673bc5d7"]
+  3.717863315842805*^9, 3.717863505043008*^9, 3.717864006237825*^9, 
+  3.7252954827049303`*^9},ExpressionUUID->"ee8fb609-3786-4f6b-9cc8-\
+33284bad4dd0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -37412,8 +37437,8 @@ Cell["O\[CloseCurlyQuote]ekaki example", "Section",
 35f2f525a739"],
 
 Cell[TextData[{
- "An example o`ekaki puzzle: \[OpenCurlyDoubleQuote]Look This Way\
-\[CloseCurlyDoubleQuote] from",
+ "An example o\[CloseCurlyQuote]ekaki puzzle: \[OpenCurlyDoubleQuote]Look \
+This Way\[CloseCurlyDoubleQuote] from",
  ButtonBox[" Puzzle Ninja",
   BaseStyle->"Hyperlink",
   ButtonData->{
@@ -37425,28 +37450,10 @@ Cell[TextData[{
  ", p.117."
 }], "Text",
  CellChangeTimes->{{3.7178621599470263`*^9, 3.7178621713152637`*^9}, {
-  3.717862210731491*^9, 3.7178622107351522`*^9}, {3.717862689061702*^9, 
-  3.717862719893126*^9}},ExpressionUUID->"ba0a8b9a-6b72-4e0f-aad5-\
+   3.717862210731491*^9, 3.7178622107351522`*^9}, {3.717862689061702*^9, 
+   3.717862719893126*^9}, 
+   3.725295757906958*^9},ExpressionUUID->"ba0a8b9a-6b72-4e0f-aad5-\
 8c3f3c532cb6"],
-
-Cell[BoxData[
- RowBox[{"(*", " ", 
-  RowBox[{
-   RowBox[{"TBD", " ", "--"}], "-", "\[IndentingNewLine]", " ", 
-   RowBox[{
-   "Add", " ", "to", " ", "description", " ", "of", " ", "package", " ", 
-    "and", " ", "each", " ", "function", " ", "\[IndentingNewLine]", "Allow", 
-    " ", "custom", " ", "setting", " ", "for", " ", "clue", " ", "length", 
-    " ", "padding", "\[IndentingNewLine]", "Cite", " ", "book", 
-    "\[IndentingNewLine]", "Deal", " ", "with", " ", "crash", " ", "on", " ", 
-    "bad", " ", "puzzle", " ", "clues", "\[IndentingNewLine]", "Change", " ", 
-    "variable", " ", "names"}]}], "\[IndentingNewLine]", "*)"}]], "Input",
- CellChangeTimes->{{3.717608349257772*^9, 3.7176083658417253`*^9}, {
-  3.717608399004303*^9, 3.7176084106582537`*^9}, {3.717608443941819*^9, 
-  3.717608453067626*^9}, {3.717608519982999*^9, 3.717608536085782*^9}, {
-  3.7178627382298098`*^9, 3.7178627425739527`*^9}, {3.717863799498909*^9, 
-  3.717863821257276*^9}},ExpressionUUID->"2151cf66-4791-4869-9923-\
-3792ca274c29"],
 
 Cell[CellGroupData[{
 
@@ -38487,9 +38494,9 @@ Cell[BoxData[
    3.717607571775334*^9, 3.71760770948274*^9, {3.7176083897231894`*^9, 
    3.717608394097561*^9}, 3.717862052078974*^9, {3.717863661786963*^9, 
    3.717863667802598*^9}, {3.717863705126338*^9, 3.717863723376545*^9}, 
-   3.7178640481813183`*^9, 
-   3.717864321373458*^9},ExpressionUUID->"2320bbb7-869c-4df8-a033-\
-ad9d11ad7f42"]
+   3.7178640481813183`*^9, 3.717864321373458*^9, 
+   3.725295515525618*^9},ExpressionUUID->"41cef1d9-55d8-4901-89ce-\
+b1a43669a8d5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -39527,8 +39534,9 @@ Cell[BoxData[
  CellChangeTimes->{
   3.717608064378529*^9, 3.717608227694648*^9, {3.717608427985837*^9, 
    3.717608432827355*^9}, 3.717862056158431*^9, 3.7178637878417263`*^9, 
-   3.717864050943212*^9},ExpressionUUID->"2bfe84a4-f4b3-4e5f-a2e7-\
-29dbbecaaf6a"]
+   3.717864050943212*^9, 
+   3.7252955199798117`*^9},ExpressionUUID->"93a89f9e-59df-47e7-b9dd-\
+853108d6333c"]
 }, Open  ]]
 }, Open  ]]
 },
