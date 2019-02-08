@@ -7,8 +7,8 @@
 (* :Author: Roy Levien *)
 (* :Date: 2019-02-08 *)
 
-(* :Package Version: 1.0.3.4 *)
-(* :Mathematica Version: 11.2.0.0 *)
+(* :Package Version: 1.0.3.5 *)
+(* :Mathematica Version: 11.3.0.0 *)
 (* :Copyright: (c) 2015-2019 Roy Levien *)
 (* :Keywords: *)
 (* :Discussion: *)
